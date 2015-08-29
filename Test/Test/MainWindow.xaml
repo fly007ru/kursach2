@@ -1,0 +1,9 @@
+﻿<Window x:Class="Test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded">
+    <Grid>
+        <TextBox Name="txb" HorizontalAlignment="Left" Height="320" TextWrapping="Wrap"  Text="TextBox" VerticalAlignment="Top" Width="507"/>
+
+    </Grid>
+</Window>
