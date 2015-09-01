@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<info name="Прикладная информатика: Прикладная информатика в экономике" form="Магистр" URL="http://www.umk3plus.utmn.ru/?section=speciality&amp;id=663">
+  <semestr number="1">
+    <subject profile="" number="1.1" cikl="Б1.Базовая часть" subject="Деловой иностранный язык (английский)" forma="зач." time="54" />
+    <subject profile="" number="2.1" cikl="Б1.Базовая часть" subject="Информационное общество и проблемы прикладной информатики" forma="экз." time="108" />
+    <subject profile="" number="3.1" cikl="Б1.Базовая часть" subject="ИТ инфраструктура" forma="экз." time="144" />
+    <subject profile="" number="4.1" cikl="Б1.Базовая часть" subject="Математические и инструментальные методы поддержки принятия решений" forma="зач." time="54" />
+    <subject profile="" number="5.1" cikl="Б1.Базовая часть" subject="Математическое моделирование экономических процессов и систем" forma="зач." time="90" />
+    <subject profile="" number="6.1" cikl="Б1.Базовая часть" subject="Методологии и технологии проектирования информационных систем" forma="экз." time="180" />
+    <subject profile="" number="7.1" cikl="Б1.Вариативная часть" subject="Управление проектами и изменениями" forma="экз." time="144" />
+    <subject profile="" number="8.1" cikl="Б2.Вариативная часть" subject="Учебная практика" forma="отчет по практике (оценка)" time="216" />
+    <subject profile="" number="9.1" cikl="Б1.Базовая часть" subject="Философские проблемы науки и техники" forma="зач." time="72" />
+  </semestr>
+  <semestr number="2">
+    <subject profile="" number="1.2" cikl="Б1.Базовая часть" subject="Деловой иностранный язык (английский)" forma="экз." time="90" />
+    <subject profile="" number="2.2" cikl="Б1.Вариативная часть" subject="Интеллектуальные информационные технологии" forma="экз." time="144" />
+    <subject profile="" number="3.2" cikl="Б2.Вариативная часть" subject="Курсовая работа по направлению (входит в НИР)" forma="курсовая по напр./спец. (экз.)" time="0" />
+    <subject profile="" number="4.2" cikl="Б1.Базовая часть" subject="Математические и инструментальные методы поддержки принятия решений" forma="экз." time="90" />
+    <subject profile="" number="5.2" cikl="Б1.Базовая часть" subject="Математическое моделирование экономических процессов и систем" forma="экз." time="90" />
+    <subject profile="" number="6.2" cikl="Б1.Дисциплины по выбору" subject="Методологии программной инженерии" forma="зач." time="108" />
+    <subject profile="" number="7.2" cikl="Б2.Вариативная часть" subject="Научно-исследовательская практика" forma="отчет по практике (оценка)" time="216" />
+    <subject profile="" number="8.2" cikl="Б2.Вариативная часть" subject="Научно-исследовательская работа в семестре, включая научно-исследовательский семинар" forma="НИР (оценка)" time="162" />
+    <subject profile="" number="9.2" cikl="Б1.Дисциплины по выбору" subject="Перспективы и последствия информационной революции" forma="зач." time="90" />
+    <subject profile="" number="10.2" cikl="Б1.Вариативная часть" subject="Технологическое обеспечение ИС поддержки деятельности предприятия" forma="зач." time="108" />
+    <subject profile="" number="11.2" cikl="Б1.Дисциплины по выбору" subject="Управления ИТ проектами" forma="зач." time="108" />
+    <subject profile="" number="12.2" cikl="Б1.Дисциплины по выбору" subject="Человеко-машинное взаимодействие в информационных системах" forma="зач." time="90" />
+  </semestr>
+  <semestr number="3">
+    <subject profile="" number="1.3" cikl="Б1.Дисциплины по выбору" subject="Интеграция систем" forma="зач." time="108" />
+    <subject profile="" number="2.3" cikl="Б1.Базовая часть" subject="ИТ консалтинг" forma="зач." time="108" />
+    <subject profile="" number="3.3" cikl="Б2.Вариативная часть" subject="Научно-исследовательская работа в семестре, включая научно-исследовательский семинар" forma="НИР (оценка)" time="162" />
+    <subject profile="" number="4.3" cikl="Б1.Дисциплины по выбору" subject="Открытые системы" forma="зач." time="108" />
+    <subject profile="" number="5.3" cikl="Б1.Дисциплины по выбору" subject="Перспективы и последствия информационной революции" forma="экз." time="126" />
+    <subject profile="" number="6.3" cikl="Б1.Вариативная часть" subject="Политика и стратегия внедрения информационных систем" forma="экз." time="180" />
+    <subject profile="" number="7.3" cikl="Б2.Вариативная часть" subject="Производственная практика" forma="отчет по практике (оценка)" time="216" />
+    <subject profile="" number="8.3" cikl="Б1.Вариативная часть" subject="Управление знаниями" forma="экз." time="180" />
+    <subject profile="" number="9.3" cikl="Б1.Дисциплины по выбору" subject="Человеко-машинное взаимодействие в информационных системах" forma="экз." time="126" />
+  </semestr>
+  <semestr number="4">
+    <subject profile="" number="1.4" cikl="Б3.Базовая часть" subject="Выпускная квалификационная работа - магистерская диссертация" forma="" time="324" />
+    <subject profile="" number="2.4" cikl="Б2.Вариативная часть" subject="Преддипломная практика" forma="отчет по практике (оценка)" time="756" />
+  </semestr>
+</info>

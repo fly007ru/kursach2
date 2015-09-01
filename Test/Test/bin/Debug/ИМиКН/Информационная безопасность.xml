@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<info name="Информационная безопасность" form="Бакалавр" URL="http://www.umk3plus.utmn.ru/?section=speciality&amp;id=643">
+  <semestr number="1">
+    <subject profile="" number="1.1" cikl="ОФ" subject="Высшая математика для гуманитариев" forma="зач." time="36" />
+  </semestr>
+  <semestr number="6">
+    <subject profile="" number="1.6" cikl="ОФ" subject="Документоведение и делопроизводство" forma="зач." time="36" />
+    <subject profile="" number="2.6" cikl="ОФ" subject="Историческая география" forma="зач." time="36" />
+    <subject profile="" number="3.6" cikl="ОФ" subject="Историческая география Сибири" forma="зач." time="36" />
+    <subject profile="" number="4.6" cikl="ОФ" subject="История мировой культуры и искусства" forma="зач." time="36" />
+    <subject profile="" number="5.6" cikl="ОФ" subject="Основы первой медицинской помощи" forma="зач." time="36" />
+    <subject profile="" number="6.6" cikl="ОФ" subject="Основы права" forma="зач." time="36" />
+    <subject profile="" number="7.6" cikl="ОФ" subject="Психология труда" forma="зач." time="36" />
+    <subject profile="" number="8.6" cikl="ОФ" subject="Экологический туризм" forma="зач." time="36" />
+  </semestr>
+</info>

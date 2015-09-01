@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<info name="Математика" form="Бакалавр" URL="http://www.umk3plus.utmn.ru/?section=speciality&amp;id=489">
+  <semestr number="1">
+    <subject profile="" number="1.1" cikl="Б1.Базовая часть" subject="Алгебра" forma="экз." time="126" />
+    <subject profile="" number="2.1" cikl="Б1.Базовая часть" subject="Аналитическая геометрия" forma="экз." time="126" />
+    <subject profile="" number="3.1" cikl="Б1.Вариативная часть" subject="Избранные вопросы математики" forma="зач." time="72" />
+    <subject profile="" number="4.1" cikl="Б1.Базовая часть" subject="Иностранный язык (английский)" forma="зач." time="144" />
+    <subject profile="" number="5.1" cikl="Б1.Дисциплины по выбору" subject="Информатика" forma="экз." time="144" />
+    <subject profile="" number="6.1" cikl="Б1.Базовая часть" subject="История" forma="экз." time="108" />
+    <subject profile="" number="7.1" cikl="Б1.Базовая часть" subject="Математический анализ" forma="экз." time="234" />
+    <subject profile="" number="8.1" cikl="Б1.Дисциплины по выбору" subject="Основы компьютерных наук" forma="экз." time="144" />
+    <subject profile="" number="9.1" cikl="Б1.Вариативная часть" subject="Физическая культура (учебно-тренировочные занятия)" forma="зач." time="68" />
+    <subject profile="" number="10.1" cikl="Б1.Базовая часть" subject="Экономическая теория" forma="зач." time="108" />
+  </semestr>
+  <semestr number="2">
+    <subject profile="" number="1.2" cikl="Б1.Базовая часть" subject="Алгебра" forma="экз." time="270" />
+    <subject profile="" number="2.2" cikl="Б1.Базовая часть" subject="Аналитическая геометрия" forma="экз." time="126" />
+    <subject profile="" number="3.2" cikl="Б1.Базовая часть" subject="Иностранный язык (английский)" forma="зач." time="144" />
+    <subject profile="" number="4.2" cikl="Б1.Базовая часть" subject="Математический анализ" forma="экз." time="306" />
+    <subject profile="" number="5.2" cikl="Б1.Вариативная часть" subject="Русский язык и культура речи" forma="зач." time="72" />
+    <subject profile="" number="6.2" cikl="Б1.Вариативная часть" subject="Технологии программирования" forma="экз." time="180" />
+    <subject profile="" number="7.2" cikl="Б1.Вариативная часть" subject="Физическая культура (учебно-тренировочные занятия)" forma="зач." time="66" />
+  </semestr>
+  <semestr number="3">
+    <subject profile="" number="1.3" cikl="Б1.Базовая часть" subject="Алгебра" forma="экз." time="144" />
+    <subject profile="" number="2.3" cikl="Б1.Базовая часть" subject="Дискретная математика" forma="экз." time="144" />
+    <subject profile="" number="3.3" cikl="Б1.Базовая часть" subject="Дифференциальные уравнения" forma="зач." time="108" />
+    <subject profile="" number="4.3" cikl="Б1.Базовая часть" subject="Иностранный язык (английский)" forma="экз." time="72" />
+    <subject profile="" number="5.3" cikl="Б1.Вариативная часть" subject="Иностранный язык в профессиональной сфере (английский)" forma="зач." time="72" />
+    <subject profile="" number="6.3" cikl="Б1.Базовая часть" subject="Математический анализ" forma="экз." time="252" />
+    <subject profile="" number="7.3" cikl="Б1.Вариативная часть" subject="Объектно-ориентированное программирование" forma="зач." time="126" />
+    <subject profile="" number="8.3" cikl="Б1.Вариативная часть" subject="Теория чисел" forma="экз." time="144" />
+    <subject profile="" number="9.3" cikl="Б1.Вариативная часть" subject="Физическая культура (учебно-тренировочные занятия)" forma="зач." time="68" />
+  </semestr>
+  <semestr number="4">
+    <subject profile="" number="1.4" cikl="Б1.Вариативная часть" subject="Действительный анализ" forma="зач." time="108" />
+    <subject profile="" number="2.4" cikl="Б1.Базовая часть" subject="Дифференциальная геометрия и топология" forma="зач." time="144" />
+    <subject profile="" number="3.4" cikl="Б1.Базовая часть" subject="Дифференциальные уравнения" forma="экз." time="144" />
+    <subject profile="" number="4.4" cikl="Б1.Вариативная часть" subject="Иностранный язык в профессиональной сфере (английский)" forma="экз." time="144" />
+    <subject profile="" number="5.4" cikl="Б1.Базовая часть" subject="Математическая логика" forma="экз." time="144" />
+    <subject profile="" number="6.4" cikl="Б1.Базовая часть" subject="Математический анализ" forma="экз." time="252" />
+    <subject profile="" number="7.4" cikl="Б1.Вариативная часть" subject="Объектно-ориентированное программирование" forma="экз." time="162" />
+    <subject profile="" number="8.4" cikl="Б1.Вариативная часть" subject="Физическая культура (учебно-тренировочные занятия)" forma="зач." time="66" />
+  </semestr>
+  <semestr number="5">
+    <subject profile="" number="1.5" cikl="Б1.Вариативная часть" subject="Базы данных" forma="экз." time="144" />
+    <subject profile="" number="2.5" cikl="Б1.Дисциплины по выбору" subject="Деловой иностранный язык (английский язык)" forma="зач." time="72" />
+    <subject profile="" number="3.5" cikl="Б1.Базовая часть" subject="Дифференциальная геометрия и топология" forma="экз." time="108" />
+    <subject profile="" number="4.5" cikl="Б1.Дисциплины по выбору" subject="Инструментальные средства компьютерного моделирования" forma="зач." time="36" />
+    <subject profile="" number="5.5" cikl="Б1.Базовая часть" subject="Комплексный анализ" forma="экз." time="126" />
+    <subject profile="" number="6.5" cikl="Б1.Дисциплины по выбору" subject="Научно-технический перевод" forma="зач." time="72" />
+    <subject profile="" number="7.5" cikl="Б1.Дисциплины по выбору" subject="Нестандартный анализ" forma="зач." time="108" />
+    <subject profile="" number="8.5" cikl="Б1.Дисциплины по выбору" subject="Ряды и интегралы Фурье" forma="зач." time="108" />
+    <subject profile="" number="9.5" cikl="Б1.Дисциплины по выбору" subject="Системы компьютерной математики" forma="зач." time="36" />
+    <subject profile="" number="10.5" cikl="Б1.Базовая часть" subject="Теория вероятностей" forma="экз." time="144" />
+    <subject profile="" number="11.5" cikl="Б1.Вариативная часть" subject="Уравнения в частных производных" forma="зач." time="108" />
+    <subject profile="" number="12.5" cikl="Б1.Базовая часть" subject="Физическая культура (теория и методика)" forma="зач." time="36" />
+    <subject profile="" number="13.5" cikl="Б1.Вариативная часть" subject="Физическая культура (учебно-тренировочные занятия)" forma="зач." time="30" />
+    <subject profile="" number="14.5" cikl="Б1.Базовая часть" subject="Функциональный анализ" forma="экз." time="108" />
+  </semestr>
+  <semestr number="6">
+    <subject profile="" number="1.6" cikl="ОФ" subject="Документоведение и делопроизводство" forma="зач." time="36" />
+    <subject profile="" number="2.6" cikl="Б1.Дисциплины по выбору" subject="Инструментальные средства компьютерного моделирования" forma="зач." time="72" />
+    <subject profile="" number="3.6" cikl="ОФ" subject="Историческая география" forma="зач." time="36" />
+    <subject profile="" number="4.6" cikl="ОФ" subject="Историческая география Сибири" forma="зач." time="36" />
+    <subject profile="" number="5.6" cikl="ОФ" subject="История мировой культуры и искусства" forma="зач." time="36" />
+    <subject profile="" number="6.6" cikl="Б1.Базовая часть" subject="Комплексный анализ" forma="экз." time="126" />
+    <subject profile="" number="7.6" cikl="Б1.Вариативная часть" subject="Математическая статистика" forma="экз." time="144" />
+    <subject profile="" number="8.6" cikl="Б1.Дисциплины по выбору" subject="Непрерывные группы" forma="зач." time="108" />
+    <subject profile="" number="9.6" cikl="ОФ" subject="Основы первой медицинской помощи" forma="зач." time="36" />
+    <subject profile="" number="10.6" cikl="ОФ" subject="Основы права" forma="зач." time="36" />
+    <subject profile="" number="11.6" cikl="ОФ" subject="Психология труда" forma="зач." time="36" />
+    <subject profile="" number="12.6" cikl="Б1.Дисциплины по выбору" subject="Системы компьютерной математики" forma="зач." time="72" />
+    <subject profile="" number="13.6" cikl="Б1.Базовая часть" subject="Теоретическая механика" forma="зач." time="108" />
+    <subject profile="" number="14.6" cikl="Б1.Вариативная часть" subject="Уравнения в частных производных" forma="экз." time="144" />
+    <subject profile="" number="15.6" cikl="Б2.Вариативная часть" subject="Учебная практика" forma="" time="108" />
+    <subject profile="" number="16.6" cikl="Б1.Базовая часть" subject="Физическая культура (теория и методика)" forma="зач." time="36" />
+    <subject profile="" number="17.6" cikl="Б1.Вариативная часть" subject="Физическая культура (учебно-тренировочные занятия)" forma="зач." time="30" />
+    <subject profile="" number="18.6" cikl="Б1.Дисциплины по выбору" subject="Функции с ограниченной вариацией" forma="зач." time="108" />
+    <subject profile="" number="19.6" cikl="Б1.Базовая часть" subject="Функциональный анализ" forma="экз." time="108" />
+    <subject profile="" number="20.6" cikl="Б1.Базовая часть" subject="Численные методы" forma="зач." time="108" />
+    <subject profile="" number="21.6" cikl="ОФ" subject="Экологический туризм" forma="зач." time="36" />
+    <subject profile="Вещественный, комплексный и функциональный анализ" number="22.1.6" cikl="Б1.Вариативная часть" subject="Теоретико-множественная топология" forma="экз." time="108" />
+  </semestr>
+  <semestr number="7">
+    <subject profile="" number="1.7" cikl="Б1.Дисциплины по выбору" subject="Банаховы алгебры и гармонический анализ" forma="зач." time="108" />
+    <subject profile="" number="2.7" cikl="Б1.Дисциплины по выбору" subject="Концепции современного естествознания" forma="экз." time="144" />
+    <subject profile="" number="3.7" cikl="Б1.Вариативная часть" subject="Методы оптимизации" forma="зач." time="108" />
+    <subject profile="" number="4.7" cikl="Б1.Дисциплины по выбору" subject="Пространства непрерывных функций" forma="зач." time="108" />
+    <subject profile="" number="5.7" cikl="Б1.Базовая часть" subject="Случайные процессы" forma="экз." time="180" />
+    <subject profile="" number="6.7" cikl="Б1.Базовая часть" subject="Теоретическая механика" forma="экз." time="144" />
+    <subject profile="" number="7.7" cikl="Б1.Дисциплины по выбору" subject="Теория категорий" forma="зач." time="108" />
+    <subject profile="" number="8.7" cikl="Б1.Дисциплины по выбору" subject="Теория обобщенных функций" forma="зач." time="108" />
+    <subject profile="" number="9.7" cikl="Б2.Вариативная часть" subject="Учебная практика" forma="отчет по практике (оценка)" time="0" />
+    <subject profile="" number="10.7" cikl="Б1.Дисциплины по выбору" subject="Физика" forma="экз." time="144" />
+    <subject profile="" number="11.7" cikl="Б1.Базовая часть" subject="Философия" forma="экз." time="144" />
+    <subject profile="" number="12.7" cikl="Б1.Базовая часть" subject="Численные методы" forma="экз." time="144" />
+  </semestr>
+  <semestr number="8">
+    <subject profile="" number="1.8" cikl="Б1.Базовая часть" subject="Безопасность жизнедеятельности" forma="зач." time="72" />
+    <subject profile="" number="2.8" cikl="Б1.Вариативная часть" subject="Вариационное исчисление" forma="зач." time="72" />
+    <subject profile="" number="3.8" cikl="Б3.Базовая часть" subject="Выпускная квалификационная работа" forma="" time="288" />
+    <subject profile="" number="4.8" cikl="Б1.Дисциплины по выбору" subject="История развития математической науки" forma="зач." time="72" />
+    <subject profile="" number="5.8" cikl="Б1.Дисциплины по выбору" subject="Методологические основы обучения математике" forma="зач." time="72" />
+    <subject profile="" number="6.8" cikl="Б1.Вариативная часть" subject="Основы предпринимательской деятельности" forma="зач." time="72" />
+    <subject profile="" number="7.8" cikl="Б1.Вариативная часть" subject="Основы экологии" forma="зач." time="72" />
+    <subject profile="" number="8.8" cikl="Б2.Вариативная часть" subject="Преддипломная практика" forma="отчет по практике (оценка)" time="216" />
+    <subject profile="" number="9.8" cikl="Б1.Дисциплины по выбору" subject="Пространства Соболева" forma="экз." time="108" />
+    <subject profile="" number="10.8" cikl="Б1.Дисциплины по выбору" subject="р-адический анализ" forma="экз." time="108" />
+    <subject profile="Вещественный, комплексный и функциональный анализ" number="11.1.8" cikl="Б1.Вариативная часть" subject="Граничные свойства аналитических функций" forma="экз." time="108" />
+  </semestr>
+</info>

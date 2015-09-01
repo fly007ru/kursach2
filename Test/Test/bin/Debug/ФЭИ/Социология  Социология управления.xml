@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<info name="Социология: Социология управления" form="Магистр" URL="http://www.umk3plus.utmn.ru/?section=speciality&amp;id=623">
+  <semestr nomer="1">
+    <subject profile="" nomerpo="1.1" cikl="Б1.Дисциплины по выбору" subjname="Глобализация и проблемы социального управления" forma="экз." time="108" />
+    <subject profile="" nomerpo="2.1" cikl="Б1.Базовая часть" subjname="Иностранный язык: профессиональная терминология и основы перевода научных текстов (английский язык)" forma="зач." time="54" />
+    <subject profile="" nomerpo="3.1" cikl="Б1.Базовая часть" subjname="Иностранный язык: профессиональная терминология и основы перевода научных текстов (немецкий язык)" forma="зач." time="54" />
+    <subject profile="" nomerpo="4.1" cikl="Б1.Вариативная часть" subjname="История и методология социологии" forma="экз." time="108" />
+    <subject profile="" nomerpo="5.1" cikl="Б1.Дисциплины по выбору" subjname="Компьютерные технологии в науке и образовании" forma="зач." time="72" />
+    <subject profile="" nomerpo="6.1" cikl="Б2.Вариативная часть" subjname="Научно-исследовательская работа" forma="НИР (зач.)" time="342" />
+    <subject profile="" nomerpo="7.1" cikl="Б1.Базовая часть" subjname="Современные социологические теории (продвинутый курс)" forma="экз." time="144" />
+    <subject profile="" nomerpo="8.1" cikl="Б1.Дисциплины по выбору" subjname="Социальная экология" forma="экз." time="108" />
+    <subject profile="" nomerpo="9.1" cikl="Б1.Дисциплины по выбору" subjname="Статистические методы, математическое моделирование и прогнозирование в социальных науках" forma="зач." time="72" />
+    <subject profile="" nomerpo="10.1" cikl="Б1.Базовая часть" subjname="Философия и методология социальных наук" forma="экз." time="108" />
+  </semestr>
+  <semestr nomer="2">
+    <subject profile="" nomerpo="1.2" cikl="Б1.Базовая часть" subjname="Иностранный язык: профессиональная терминология и основы перевода научных текстов (английский язык)" forma="экз." time="54" />
+    <subject profile="" nomerpo="2.2" cikl="Б1.Базовая часть" subjname="Иностранный язык: профессиональная терминология и основы перевода научных текстов (немецкий язык)" forma="экз." time="54" />
+    <subject profile="" nomerpo="3.2" cikl="Б2.Вариативная часть" subjname="Научно-исследовательская работа" forma="НИР (зач.)" time="306" />
+    <subject profile="" nomerpo="4.2" cikl="Б1.Базовая часть" subjname="Научно-исследовательский семинар" forma="зач." time="72" />
+    <subject profile="" nomerpo="5.2" cikl="Б2.Вариативная часть" subjname="Производственная практика" forma="отчет по практике (оценка)" time="324" />
+    <subject profile="" nomerpo="6.2" cikl="Б1.Базовая часть" subjname="Современные методы социологических исследований" forma="экз." time="108" />
+    <subject profile="" nomerpo="7.2" cikl="Б1.Дисциплины по выбору" subjname="Современные проблемы управления социально-трудовыми отношениями" forma="зач." time="72" />
+    <subject profile="" nomerpo="8.2" cikl="Б1.Дисциплины по выбору" subjname="Социально-политическая теория" forma="зач." time="108" />
+    <subject profile="" nomerpo="9.2" cikl="Б1.Дисциплины по выбору" subjname="Социально-политическое пространство региона" forma="зач." time="108" />
+    <subject profile="" nomerpo="10.2" cikl="Б1.Дисциплины по выбору" subjname="Социология бизнеса" forma="зач." time="72" />
+    <subject profile="" nomerpo="11.2" cikl="Б1.Вариативная часть" subjname="Управление социальной сферой" forma="экз." time="180" />
+  </semestr>
+  <semestr nomer="3">
+    <subject profile="" nomerpo="1.3" cikl="Б1.Вариативная часть" subjname="Бифуркационный менеджмент" forma="экз." time="108" />
+    <subject profile="" nomerpo="2.3" cikl="Б1.Дисциплины по выбору" subjname="Консенсусология" forma="экз." time="144" />
+    <subject profile="" nomerpo="3.3" cikl="Б2.Вариативная часть" subjname="Научно-исследовательская работа" forma="НИР (зач.)" time="324" />
+    <subject profile="" nomerpo="4.3" cikl="Б1.Базовая часть" subjname="Научно-исследовательский семинар" forma="экз." time="108" />
+    <subject profile="" nomerpo="5.3" cikl="Б1.Дисциплины по выбору" subjname="Современные социальные проблемы регионального развития" forma="зач." time="72" />
+    <subject profile="" nomerpo="6.3" cikl="Б1.Дисциплины по выбору" subjname="Социальное воспроизводство региона" forma="зач." time="72" />
+    <subject profile="" nomerpo="7.3" cikl="Б1.Вариативная часть" subjname="Социальные процессы в системе международных отношений" forma="зач." time="72" />
+    <subject profile="" nomerpo="8.3" cikl="Б1.Дисциплины по выбору" subjname="Социологический анализ согласия в современном обществе" forma="экз." time="144" />
+  </semestr>
+  <semestr nomer="4">
+    <subject profile="" nomerpo="1.4" cikl="Б3.Базовая часть" subjname="Выпускная квалификационная работа - магистерская диссертация" forma="" time="216" />
+    <subject profile="" nomerpo="2.4" cikl="Б3.Базовая часть" subjname="Государственный экзамен" forma="" time="108" />
+    <subject profile="" nomerpo="3.4" cikl="ОФ" subjname="Культура делового общения" forma="зач." time="36" />
+    <subject profile="" nomerpo="4.4" cikl="ОФ" subjname="Культура речи" forma="зач." time="36" />
+    <subject profile="" nomerpo="5.4" cikl="Б1.Дисциплины по выбору" subjname="Культуральный аспект инновационного развития региона" forma="зач." time="72" />
+    <subject profile="" nomerpo="6.4" cikl="ОФ" subjname="Логика" forma="зач." time="36" />
+    <subject profile="" nomerpo="7.4" cikl="ОФ" subjname="Мерчендайзинг. Искусство торговать" forma="зач." time="36" />
+    <subject profile="" nomerpo="8.4" cikl="Б1.Дисциплины по выбору" subjname="Методология социального познания" forma="зач." time="108" />
+    <subject profile="" nomerpo="9.4" cikl="Б2.Вариативная часть" subjname="Научно-исследовательская работа" forma="НИР (зач.)" time="108" />
+    <subject profile="" nomerpo="10.4" cikl="ОФ" subjname="Педагогика. Общие основы" forma="зач." time="36" />
+    <subject profile="" nomerpo="11.4" cikl="Б2.Вариативная часть" subjname="Педагогическая практика" forma="отчет по практике (оценка)" time="108" />
+    <subject profile="" nomerpo="12.4" cikl="Б2.Вариативная часть" subjname="Преддипломная практика" forma="отчет по практике (оценка)" time="324" />
+    <subject profile="" nomerpo="13.4" cikl="Б1.Дисциплины по выбору" subjname="Преподавание социологии в ВУЗе: традиции и инновации" forma="зач." time="72" />
+    <subject profile="" nomerpo="14.4" cikl="Б1.Дисциплины по выбору" subjname="Современные исследования межкультурных коммуникаций" forma="зач." time="72" />
+    <subject profile="" nomerpo="15.4" cikl="Б1.Вариативная часть" subjname="Социально-психологические аспекты управления организацией в условиях модернизации" forma="экз." time="72" />
+    <subject profile="" nomerpo="16.4" cikl="Б1.Вариативная часть" subjname="Социокультурные проблемы глобализации" forma="зач." time="72" />
+    <subject profile="" nomerpo="17.4" cikl="Б1.Дисциплины по выбору" subjname="Теория и практика инноватики" forma="зач." time="108" />
+    <subject profile="" nomerpo="18.4" cikl="ОФ" subjname="Теория организации и организационное поведение" forma="зач." time="72" />
+    <subject profile="" nomerpo="19.4" cikl="Б1.Вариативная часть" subjname="Управление социальным развитием организаций" forma="зач." time="72" />
+    <subject profile="" nomerpo="20.4" cikl="Б1.Вариативная часть" subjname="Управление человеческими ресурсами" forma="зач." time="72" />
+  </semestr>
+</info>

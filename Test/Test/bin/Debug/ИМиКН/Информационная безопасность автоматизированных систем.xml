@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<info name="Информационная безопасность автоматизированных систем" form="Специалист" URL="http://www.umk3plus.utmn.ru/?section=speciality&amp;id=651">
+  <semestr number="1">
+    <subject profile="" number="1.1" cikl="С2.Базовая часть" subject="Алгебра и геометрия" forma="экз." time="144" />
+    <subject profile="" number="2.1" cikl="ОФ" subject="Высшая математика для гуманитариев" forma="зач." time="36" />
+    <subject profile="" number="3.1" cikl="С1.Базовая часть" subject="Иностранный язык (английский)" forma="зач." time="108" />
+    <subject profile="" number="4.1" cikl="С2.Базовая часть" subject="Информатика" forma="экз." time="180" />
+    <subject profile="" number="5.1" cikl="С2.Дисциплины по выбору" subject="История криптографии" forma="зач." time="108" />
+    <subject profile="" number="6.1" cikl="С2.Дисциплины по выбору" subject="История математики" forma="зач." time="108" />
+    <subject profile="" number="7.1" cikl="С1.Базовая часть" subject="История Отечества" forma="экз." time="144" />
+    <subject profile="" number="8.1" cikl="С1.Дисциплины по выбору" subject="История создания технологий передачи и защиты информации" forma="зач." time="108" />
+    <subject profile="" number="9.1" cikl="С2.Базовая часть" subject="Математический анализ" forma="экз." time="144" />
+    <subject profile="" number="10.1" cikl="С1.Дисциплины по выбору" subject="Основы предпринимательской деятельности в сфере ИКТ" forma="зач." time="108" />
+    <subject profile="" number="11.1" cikl="С2.Базовая часть" subject="Физика" forma="зач." time="90" />
+    <subject profile="" number="12.1" cikl="С4.Базовая часть" subject="Физическая культура" forma="зач." time="72" />
+  </semestr>
+  <semestr number="2">
+    <subject profile="" number="1.2" cikl="С2.Базовая часть" subject="Алгебра и геометрия" forma="зач." time="108" />
+    <subject profile="" number="2.2" cikl="С1.Базовая часть" subject="Иностранный язык (английский)" forma="зач." time="108" />
+    <subject profile="" number="3.2" cikl="С2.Базовая часть" subject="Математическая логика и теория алгоритмов" forma="экз." time="180" />
+    <subject profile="" number="4.2" cikl="С2.Базовая часть" subject="Математический анализ" forma="экз." time="144" />
+    <subject profile="" number="5.2" cikl="С3.Базовая часть" subject="Организация ЭВМ и вычислительных систем" forma="зач." time="108" />
+    <subject profile="" number="6.2" cikl="С1.Базовая часть" subject="Русский язык и культура речи" forma="зач." time="108" />
+    <subject profile="" number="7.2" cikl="С2.Базовая часть" subject="Физика" forma="экз." time="234" />
+    <subject profile="" number="8.2" cikl="С4.Базовая часть" subject="Физическая культура" forma="зач." time="72" />
+    <subject profile="" number="9.2" cikl="С3.Базовая часть" subject="Языки программирования" forma="экз." time="108" />
+  </semestr>
+  <semestr number="3">
+    <subject profile="" number="1.3" cikl="С2.Базовая часть" subject="Алгебра и геометрия" forma="экз." time="144" />
+    <subject profile="" number="2.3" cikl="С3.Вариативная часть" subject="Гуманитарные аспекты информационной безопасности" forma="экз." time="108" />
+    <subject profile="" number="3.3" cikl="С2.Базовая часть" subject="Дискретная математика" forma="зач." time="108" />
+    <subject profile="" number="4.3" cikl="С1.Базовая часть" subject="Иностранный язык (английский)" forma="экз." time="144" />
+    <subject profile="" number="5.3" cikl="С1.Вариативная часть" subject="Иностранный язык в профессиональной сфере (английский)" forma="зач." time="90" />
+    <subject profile="" number="6.3" cikl="С2.Базовая часть" subject="Математический анализ" forma="экз." time="144" />
+    <subject profile="" number="7.3" cikl="С3.Базовая часть" subject="Организация ЭВМ и вычислительных систем" forma="экз." time="144" />
+    <subject profile="" number="8.3" cikl="С4.Базовая часть" subject="Физическая культура" forma="зач." time="72" />
+    <subject profile="" number="9.3" cikl="С1.Базовая часть" subject="Экономика" forma="зач." time="72" />
+    <subject profile="" number="10.3" cikl="С3.Базовая часть" subject="Языки программирования" forma="зач." time="108" />
+  </semestr>
+  <semestr number="4">
+    <subject profile="" number="1.4" cikl="С3.Базовая часть" subject="Безопасность систем баз данных" forma="экз." time="180" />
+    <subject profile="" number="2.4" cikl="С3.Дисциплины по выбору" subject="Зарубежные стандарты по информационной безопасности" forma="зач." time="108" />
+    <subject profile="" number="3.4" cikl="С3.Дисциплины по выбору" subject="Защита мобильных систем" forma="экз." time="216" />
+    <subject profile="" number="4.4" cikl="С1.Вариативная часть" subject="Иностранный язык в профессиональной сфере (английский)" forma="экз." time="126" />
+    <subject profile="" number="5.4" cikl="С3.Дисциплины по выбору" subject="Операционные системы" forma="экз." time="216" />
+    <subject profile="" number="6.4" cikl="С3.Дисциплины по выбору" subject="Отечественное законодательство по защите конфиденциальной информации" forma="зач." time="108" />
+    <subject profile="" number="7.4" cikl="С2.Вариативная часть" subject="Структуры и алгоритмы компьютерной обработки данных" forma="зач." time="108" />
+    <subject profile="" number="8.4" cikl="С4.Базовая часть" subject="Физическая культура" forma="зач." time="72" />
+    <subject profile="" number="9.4" cikl="С3.Базовая часть" subject="Языки программирования" forma="экз." time="180" />
+    <subject profile="Обеспечение информационной безопасности распределенных информационных систем" number="10.1.4" cikl="С2.Базовая часть" subject="Исследование операций и теории игр" forma="экз." time="180" />
+  </semestr>
+  <semestr number="5">
+    <subject profile="" number="1.5" cikl="С3.Базовая часть" subject="Безопасность операционных систем" forma="зач." time="108" />
+    <subject profile="" number="2.5" cikl="С3.Базовая часть" subject="Безопасность систем баз данных" forma="экз." time="144" />
+    <subject profile="" number="3.5" cikl="С3.Вариативная часть" subject="Защита программ и данных" forma="зач." time="108" />
+    <subject profile="" number="4.5" cikl="С3.Базовая часть" subject="Криптографические методы защиты информации" forma="экз." time="144" />
+    <subject profile="" number="5.5" cikl="С3.Базовая часть" subject="Основы информационной безопасности" forma="зач." time="108" />
+    <subject profile="" number="6.5" cikl="С3.Базовая часть" subject="Сети и системы передачи информации" forma="экз." time="144" />
+    <subject profile="" number="7.5" cikl="С2.Базовая часть" subject="Теория информации" forma="зач." time="108" />
+    <subject profile="" number="8.5" cikl="С3.Базовая часть" subject="Технологии и методы программирования" forma="экз." time="144" />
+    <subject profile="" number="9.5" cikl="С4.Базовая часть" subject="Физическая культура" forma="зач." time="54" />
+  </semestr>
+  <semestr number="6">
+    <subject profile="" number="1.6" cikl="С3.Базовая часть" subject="Безопасность операционных систем" forma="экз." time="144" />
+    <subject profile="" number="2.6" cikl="ОФ" subject="Документоведение и делопроизводство" forma="зач." time="36" />
+    <subject profile="" number="3.6" cikl="С3.Базовая часть" subject="Инженерная графика" forma="зач." time="108" />
+    <subject profile="" number="4.6" cikl="ОФ" subject="Историческая география" forma="зач." time="36" />
+    <subject profile="" number="5.6" cikl="ОФ" subject="Историческая география Сибири" forma="зач." time="36" />
+    <subject profile="" number="6.6" cikl="ОФ" subject="История мировой культуры и искусства" forma="зач." time="36" />
+    <subject profile="" number="7.6" cikl="С3.Вариативная часть" subject="Криптографические протоколы" forma="экз." time="180" />
+    <subject profile="" number="8.6" cikl="ОФ" subject="Основы первой медицинской помощи" forma="зач." time="36" />
+    <subject profile="" number="9.6" cikl="ОФ" subject="Основы права" forma="зач." time="36" />
+    <subject profile="" number="10.6" cikl="ОФ" subject="Психология труда" forma="зач." time="36" />
+    <subject profile="" number="11.6" cikl="С3.Базовая часть" subject="Сети и системы передачи информации" forma="экз." time="144" />
+    <subject profile="" number="12.6" cikl="С2.Базовая часть" subject="Теория вероятностей и математическая статистика" forma="зач." time="108" />
+    <subject profile="" number="13.6" cikl="С2.Базовая часть" subject="Теория информации" forma="экз." time="144" />
+    <subject profile="" number="14.6" cikl="С3.Базовая часть" subject="Технологии и методы программирования" forma="зач." time="108" />
+    <subject profile="" number="15.6" cikl="С5" subject="Учебная практика" forma="отчет по практике (оценка)" time="108" />
+    <subject profile="" number="16.6" cikl="С4.Базовая часть" subject="Физическая культура" forma="зач." time="58" />
+    <subject profile="" number="17.6" cikl="ОФ" subject="Экологический туризм" forma="зач." time="36" />
+    <subject profile="" number="18.6" cikl="С3.Базовая часть" subject="Электроника и схемотехника" forma="зач." time="72" />
+  </semestr>
+  <semestr number="7">
+    <subject profile="" number="1.7" cikl="С3.Дисциплины по выбору" subject="Защита конфиденциальной информации" forma="зач." time="108" />
+    <subject profile="" number="2.7" cikl="С3.Базовая часть" subject="Информационная безопасность открытых систем" forma="зач." time="108" />
+    <subject profile="" number="3.7" cikl="С1.Базовая часть" subject="Основы управленческой деятельности" forma="зач." time="72" />
+    <subject profile="" number="4.7" cikl="С3.Вариативная часть" subject="Системы обнаружения компьютерных атак" forma="зач." time="108" />
+    <subject profile="" number="5.7" cikl="С3.Вариативная часть" subject="Современные информационные системы" forma="экз." time="108" />
+    <subject profile="" number="6.7" cikl="С2.Базовая часть" subject="Теория вероятностей и математическая статистика" forma="экз." time="144" />
+    <subject profile="" number="7.7" cikl="С3.Базовая часть" subject="Технологии и методы программирования" forma="экз." time="180" />
+    <subject profile="" number="8.7" cikl="С1.Базовая часть" subject="Философия" forma="экз." time="144" />
+    <subject profile="" number="9.7" cikl="С3.Дисциплины по выбору" subject="Электронная коммерция. Разработка и защита интернет-магазинов" forma="зач." time="108" />
+    <subject profile="Обеспечение информационной безопасности распределенных информационных систем" number="10.1.7" cikl="С3.Базовая часть" subject="Методы проектирования защищенных распределенных информационных систем" forma="экз." time="108" />
+  </semestr>
+  <semestr number="8">
+    <subject profile="" number="1.8" cikl="С3.Вариативная часть" subject="Защита персональных данных" forma="зач." time="108" />
+    <subject profile="" number="2.8" cikl="С2.Дисциплины по выбору" subject="Организация удостоверяющих центров" forma="экз." time="180" />
+    <subject profile="" number="3.8" cikl="С3.Базовая часть" subject="Программно-аппаратные средства обеспечения информационной безопасности" forma="зач." time="108" />
+    <subject profile="" number="4.8" cikl="С5" subject="Производственная практика" forma="отчет по практике (оценка)" time="108" />
+    <subject profile="" number="5.8" cikl="С3.Базовая часть" subject="Техническая защита информации" forma="экз." time="216" />
+    <subject profile="" number="6.8" cikl="С2.Дисциплины по выбору" subject="Технологии разработки защищенного документооборота" forma="экз." time="180" />
+    <subject profile="" number="7.8" cikl="С3.Базовая часть" subject="Управление информационной безопасностью" forma="зач." time="72" />
+    <subject profile="Обеспечение информационной безопасности распределенных информационных систем" number="8.1.8" cikl="С3.Базовая часть" subject="Информационная безопасность распределенных информационных систем" forma="экз." time="144" />
+    <subject profile="Обеспечение информационной безопасности распределенных информационных систем" number="8.1.8" cikl="С3.Базовая часть" subject="Технология построения защищенных распределенных приложений" forma="экз." time="144" />
+  </semestr>
+  <semestr number="9">
+    <subject profile="" number="1.9" cikl="С3.Базовая часть" subject="Безопасность жизнедеятельности" forma="зач." time="108" />
+    <subject profile="" number="2.9" cikl="С3.Дисциплины по выбору" subject="Дополнительные главы криптографии" forma="зач." time="108" />
+    <subject profile="" number="3.9" cikl="С3.Вариативная часть" subject="Информационные технологии" forma="экз." time="144" />
+    <subject profile="" number="4.9" cikl="С3.Базовая часть" subject="Организационное и правовое обеспечение информационной безопасности" forma="экз." time="180" />
+    <subject profile="" number="5.9" cikl="С3.Дисциплины по выбору" subject="Построение информационных приложений на базе промышленных СУБД" forma="зач." time="108" />
+    <subject profile="" number="6.9" cikl="С1.Базовая часть" subject="Правоведение" forma="зач." time="108" />
+    <subject profile="" number="7.9" cikl="С3.Базовая часть" subject="Разработка и эксплуатация защищенных автоматизированных систем" forma="экз." time="144" />
+    <subject profile="Обеспечение информационной безопасности распределенных информационных систем" number="8.1.9" cikl="С2.Базовая часть" subject="Теория графов и ее приложения" forma="экз." time="180" />
+  </semestr>
+  <semestr number="10">
+    <subject profile="" number="1.10" cikl="С6" subject="Выпускная квалификационная работа" forma="" time="648" />
+    <subject profile="" number="2.10" cikl="С6" subject="Итоговый междисциплинарный экзамен по специальности" forma="" time="108" />
+    <subject profile="" number="3.10" cikl="С5" subject="Производственная практика" forma="отчет по практике (оценка)" time="432" />
+  </semestr>
+</info>

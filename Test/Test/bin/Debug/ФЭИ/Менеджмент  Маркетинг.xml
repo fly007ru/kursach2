@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<info name="Менеджмент: Маркетинг" form="Магистр" URL="http://www.umk3plus.utmn.ru/?section=speciality&amp;id=534">
+  <semestr nomer="1">
+    <subject profile="" nomerpo="1.1" cikl="Б1.Вариативная часть" subjname="Мерчендайзинг" forma="зач." time="72" />
+    <subject profile="" nomerpo="2.1" cikl="Б1.Дисциплины по выбору" subjname="Методы стратегического менеджмента" forma="зач." time="72" />
+    <subject profile="" nomerpo="3.1" cikl="Б2.Вариативная часть" subjname="Научно-исследовательская работа" forma="НИР (зач.)" time="306" />
+    <subject profile="" nomerpo="4.1" cikl="Б1.Дисциплины по выбору" subjname="Правовое обеспечение маркетинговой деятельности" forma="зач." time="72" />
+    <subject profile="" nomerpo="5.1" cikl="Б1.Дисциплины по выбору" subjname="Предпринимательское право" forma="зач." time="72" />
+    <subject profile="" nomerpo="6.1" cikl="Б1.Дисциплины по выбору" subjname="Современные и фундаментальные концепции менеджмента" forma="зач." time="72" />
+    <subject profile="" nomerpo="7.1" cikl="Б1.Вариативная часть" subjname="Современные проблемы науки и практики управления" forma="экз." time="108" />
+    <subject profile="" nomerpo="8.1" cikl="Б1.Базовая часть" subjname="Теория организации и организационное поведение" forma="экз." time="144" />
+    <subject profile="" nomerpo="9.1" cikl="Б1.Базовая часть" subjname="Управленческая экономика" forma="экз." time="144" />
+  </semestr>
+  <semestr nomer="2">
+    <subject profile="" nomerpo="1.2" cikl="Б1.Дисциплины по выбору" subjname="Бюджетирование маркетинга" forma="зач." time="108" />
+    <subject profile="" nomerpo="2.2" cikl="Б1.Вариативная часть" subjname="Деловой иностранный язык (английский)" forma="зач." time="36" />
+    <subject profile="" nomerpo="3.2" cikl="Б1.Вариативная часть" subjname="Деловой иностранный язык (немецкий)" forma="зач." time="36" />
+    <subject profile="" nomerpo="4.2" cikl="Б1.Вариативная часть" subjname="Информационные ресурсы и компьютерные технологии в менеджменте" forma="экз." time="108" />
+    <subject profile="" nomerpo="5.2" cikl="Б1.Вариативная часть" subjname="Коммуникационная политика в маркетинге" forma="экз." time="108" />
+    <subject profile="" nomerpo="6.2" cikl="Б1.Базовая часть" subjname="Корпоративные финансы" forma="зач." time="108" />
+    <subject profile="" nomerpo="7.2" cikl="Б1.Дисциплины по выбору" subjname="Маркетинг услуг" forma="зач." time="108" />
+    <subject profile="" nomerpo="8.2" cikl="Б1.Базовая часть" subjname="Методы исследований в менеджменте" forma="экз." time="144" />
+    <subject profile="" nomerpo="9.2" cikl="Б2.Вариативная часть" subjname="Научно-исследовательская практика" forma="отчет по практике (зач.)" time="324" />
+    <subject profile="" nomerpo="10.2" cikl="Б2.Вариативная часть" subjname="Научно-исследовательская работа" forma="НИР (зач.)" time="306" />
+  </semestr>
+  <semestr nomer="3">
+    <subject profile="" nomerpo="1.3" cikl="Б1.Вариативная часть" subjname="Деловой иностранный язык (английский)" forma="экз." time="108" />
+    <subject profile="" nomerpo="2.3" cikl="Б1.Вариативная часть" subjname="Деловой иностранный язык (немецкий)" forma="экз." time="108" />
+    <subject profile="" nomerpo="3.3" cikl="Б1.Дисциплины по выбору" subjname="Маркетинговый анализ деятельности фирмы" forma="зач." time="108" />
+    <subject profile="" nomerpo="4.3" cikl="Б1.Дисциплины по выбору" subjname="Методы исследования рынка" forma="зач." time="108" />
+    <subject profile="" nomerpo="5.3" cikl="Б2.Вариативная часть" subjname="Научно-исследовательская работа" forma="НИР (зач.)" time="198" />
+    <subject profile="" nomerpo="6.3" cikl="Б2.Вариативная часть" subjname="Педагогическая практика" forma="отчет по практике (зач.)" time="162" />
+    <subject profile="" nomerpo="7.3" cikl="Б1.Вариативная часть" subjname="Профессиональный семинар" forma="зач." time="36" />
+    <subject profile="" nomerpo="8.3" cikl="Б1.Базовая часть" subjname="Современный стратегический анализ" forma="экз." time="108" />
+    <subject profile="" nomerpo="9.3" cikl="Б1.Вариативная часть" subjname="Стратегический маркетинг" forma="зач." time="72" />
+    <subject profile="" nomerpo="10.3" cikl="Б1.Вариативная часть" subjname="Управление конкурентоспособностью фирмы" forma="экз." time="108" />
+    <subject profile="" nomerpo="11.3" cikl="Б1.Вариативная часть" subjname="Управление маркетингом" forma="зач." time="72" />
+  </semestr>
+  <semestr nomer="4">
+    <subject profile="" nomerpo="1.4" cikl="Б1.Дисциплины по выбору" subjname="Бенчмаркинг" forma="зач." time="72" />
+    <subject profile="" nomerpo="2.4" cikl="Б1.Вариативная часть" subjname="Брендинг" forma="зач." time="72" />
+    <subject profile="" nomerpo="3.4" cikl="Б3.Базовая часть" subjname="Выпускная квалификационная работа - магистерская диссертация" forma="" time="216" />
+    <subject profile="" nomerpo="4.4" cikl="Б1.Вариативная часть" subjname="Инновационный маркетинг" forma="зач." time="72" />
+    <subject profile="" nomerpo="5.4" cikl="Б1.Дисциплины по выбору" subjname="Информационные технологии управления маркетингом" forma="зач." time="72" />
+    <subject profile="" nomerpo="6.4" cikl="ОФ" subjname="Культура делового общения" forma="зач." time="36" />
+    <subject profile="" nomerpo="7.4" cikl="ОФ" subjname="Культура речи" forma="зач." time="36" />
+    <subject profile="" nomerpo="8.4" cikl="Б1.Дисциплины по выбору" subjname="Лидерство и профессиональные навыки менеджера" forma="зач." time="72" />
+    <subject profile="" nomerpo="9.4" cikl="ОФ" subjname="Логика" forma="зач." time="36" />
+    <subject profile="" nomerpo="10.4" cikl="ОФ" subjname="Мерчендайзинг. Искусство торговать" forma="зач." time="36" />
+    <subject profile="" nomerpo="11.4" cikl="Б2.Вариативная часть" subjname="Научно-исследовательская работа" forma="НИР (зач.)" time="162" />
+    <subject profile="" nomerpo="12.4" cikl="ОФ" subjname="Педагогика. Общие основы" forma="зач." time="36" />
+    <subject profile="" nomerpo="13.4" cikl="Б2.Вариативная часть" subjname="Педагогическая практика" forma="отчет по практике (оценка)" time="162" />
+    <subject profile="" nomerpo="14.4" cikl="Б2.Вариативная часть" subjname="Преддипломная практика" forma="отчет по практике (оценка)" time="216" />
+    <subject profile="" nomerpo="15.4" cikl="Б1.Вариативная часть" subjname="Профессиональный семинар" forma="зач." time="36" />
+    <subject profile="" nomerpo="16.4" cikl="ОФ" subjname="Теория организации и организационное поведение" forma="зач." time="72" />
+    <subject profile="" nomerpo="17.4" cikl="Б1.Вариативная часть" subjname="Трейд-маркетинг" forma="экз." time="108" />
+    <subject profile="" nomerpo="18.4" cikl="Б1.Дисциплины по выбору" subjname="Экономическая безопасность и риск-менеджмент" forma="зач." time="72" />
+  </semestr>
+</info>

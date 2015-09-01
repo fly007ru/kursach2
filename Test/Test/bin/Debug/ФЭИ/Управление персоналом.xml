@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<info name="Управление персоналом" form="Бакалавр" URL="http://www.umk3plus.utmn.ru/?section=speciality&amp;id=819">
+  <semestr nomer="1">
+    <subject profile="" nomerpo="1.1" cikl="ОФ" subjname="Высшая математика для гуманитариев" forma="зач." time="36" />
+    <subject profile="" nomerpo="2.1" cikl="ОФ" subjname="Высшая математика для гуманитариев" forma="зач." time="36" />
+    <subject profile="" nomerpo="3.1" cikl="Б1.Базовая часть" subjname="Иностранный язык (английский)" forma="зач." time="144" />
+    <subject profile="" nomerpo="4.1" cikl="Б1.Базовая часть" subjname="Иностранный язык (немецкий)" forma="зач." time="144" />
+    <subject profile="" nomerpo="5.1" cikl="Б1.Базовая часть" subjname="История" forma="экз." time="108" />
+    <subject profile="" nomerpo="6.1" cikl="Б2.Базовая часть" subjname="Концепции современного естествознания" forma="экз." time="108" />
+    <subject profile="" nomerpo="7.1" cikl="Б1.Вариативная часть" subjname="Культурология" forma="зач." time="72" />
+    <subject profile="" nomerpo="8.1" cikl="Б2.Базовая часть" subjname="Математика" forma="экз." time="216" />
+    <subject profile="" nomerpo="9.1" cikl="Б2.Вариативная часть" subjname="Основы экологии" forma="зач." time="72" />
+    <subject profile="" nomerpo="10.1" cikl="Б1.Вариативная часть" subjname="Русский язык и культура речи" forma="зач." time="72" />
+    <subject profile="" nomerpo="11.1" cikl="Б4.Базовая часть" subjname="Физическая культура" forma="зач." time="68" />
+    <subject profile="" nomerpo="12.1" cikl="Б1.Базовая часть" subjname="Экономическая теория" forma="экз." time="108" />
+    <subject profile="" nomerpo="13.1" cikl="Б3.Вариативная часть" subjname="Этика деловых отношений" forma="зач." time="108" />
+  </semestr>
+  <semestr nomer="2">
+    <subject profile="" nomerpo="1.2" cikl="Б3.Базовая часть" subjname="Безопасность жизнедеятельности" forma="зач." time="72" />
+    <subject profile="" nomerpo="2.2" cikl="Б1.Базовая часть" subjname="Иностранный язык (английский)" forma="зач." time="36" />
+    <subject profile="" nomerpo="3.2" cikl="Б1.Базовая часть" subjname="Иностранный язык (немецкий)" forma="зач." time="36" />
+    <subject profile="" nomerpo="4.2" cikl="Б1.Вариативная часть" subjname="Иностранный язык в профессиональной сфере (английский)" forma="зач." time="72" />
+    <subject profile="" nomerpo="5.2" cikl="Б1.Вариативная часть" subjname="Иностранный язык в профессиональной сфере (немецкий)" forma="зач." time="72" />
+    <subject profile="" nomerpo="6.2" cikl="Б3.Базовая часть" subjname="Основы теории управления" forma="экз." time="216" />
+    <subject profile="" nomerpo="7.2" cikl="Б1.Вариативная часть" subjname="Политология" forma="зач." time="72" />
+    <subject profile="" nomerpo="8.2" cikl="Б1.Вариативная часть" subjname="Психология" forma="зач." time="72" />
+    <subject profile="" nomerpo="9.2" cikl="Б1.Дисциплины по выбору" subjname="Региональная экономика" forma="зач." time="108" />
+    <subject profile="" nomerpo="10.2" cikl="Б3.Базовая часть" subjname="Рынок труда" forma="экз." time="144" />
+    <subject profile="" nomerpo="11.2" cikl="Б1.Базовая часть" subjname="Социология" forma="экз." time="108" />
+    <subject profile="" nomerpo="12.2" cikl="Б5" subjname="Учебная практика" forma="отчет по практике (зач.)" time="108" />
+    <subject profile="" nomerpo="13.2" cikl="Б4.Базовая часть" subjname="Физическая культура" forma="зач." time="66" />
+    <subject profile="" nomerpo="14.2" cikl="Б1.Базовая часть" subjname="Философия" forma="экз." time="144" />
+    <subject profile="" nomerpo="15.2" cikl="Б1.Дисциплины по выбору" subjname="Экономика Тюменской области" forma="зач." time="108" />
+  </semestr>
+  <semestr nomer="3">
+    <subject profile="" nomerpo="1.3" cikl="Б1.Базовая часть" subjname="Иностранный язык (английский)" forma="экз." time="72" />
+    <subject profile="" nomerpo="2.3" cikl="Б1.Базовая часть" subjname="Иностранный язык (немецкий)" forma="экз." time="72" />
+    <subject profile="" nomerpo="3.3" cikl="Б1.Вариативная часть" subjname="Иностранный язык в профессиональной сфере (английский)" forma="зач." time="54" />
+    <subject profile="" nomerpo="4.3" cikl="Б1.Вариативная часть" subjname="Иностранный язык в профессиональной сфере (немецкий)" forma="зач." time="54" />
+    <subject profile="" nomerpo="5.3" cikl="Б2.Дисциплины по выбору" subjname="Исследование систем управления и системный анализ" forma="зач." time="108" />
+    <subject profile="" nomerpo="6.3" cikl="Б2.Дисциплины по выбору" subjname="Методы принятия управленческих решений" forma="зач." time="108" />
+    <subject profile="" nomerpo="7.3" cikl="Б3.Базовая часть" subjname="Организационное поведение" forma="зач." time="108" />
+    <subject profile="" nomerpo="8.3" cikl="Б3.Вариативная часть" subjname="Основы безопасности труда" forma="зач." time="108" />
+    <subject profile="" nomerpo="9.3" cikl="Б3.Дисциплины по выбору" subjname="Основы государственного и муниципального управления" forma="экз." time="180" />
+    <subject profile="" nomerpo="10.3" cikl="Б3.Дисциплины по выбору" subjname="Основы государственной и муниципальной службы" forma="экз." time="180" />
+    <subject profile="" nomerpo="11.3" cikl="Б3.Базовая часть" subjname="Основы управления персоналом" forma="экз." time="144" />
+    <subject profile="" nomerpo="12.3" cikl="Б1.Базовая часть" subjname="Правоведение" forma="зач." time="72" />
+    <subject profile="" nomerpo="13.3" cikl="Б2.Базовая часть" subjname="Статистика" forma="зач." time="74" />
+    <subject profile="" nomerpo="14.3" cikl="Б4.Базовая часть" subjname="Физическая культура" forma="зач." time="68" />
+    <subject profile="" nomerpo="15.3" cikl="Б1.Базовая часть" subjname="Экономика организации" forma="экз." time="108" />
+  </semestr>
+  <semestr nomer="4">
+    <subject profile="" nomerpo="1.4" cikl="Б1.Вариативная часть" subjname="Иностранный язык в профессиональной сфере (английский)" forma="экз." time="126" />
+    <subject profile="" nomerpo="2.4" cikl="Б1.Вариативная часть" subjname="Иностранный язык в профессиональной сфере (немецкий)" forma="экз." time="126" />
+    <subject profile="" nomerpo="3.4" cikl="Б3.Дисциплины по выбору" subjname="Информационный менеджмент" forma="зач." time="108" />
+    <subject profile="" nomerpo="4.4" cikl="Б3.Вариативная часть" subjname="Маркетинг" forma="зач." time="108" />
+    <subject profile="" nomerpo="5.4" cikl="Б1.Дисциплины по выбору" subjname="Международные экономические отношения" forma="зач." time="72" />
+    <subject profile="" nomerpo="6.4" cikl="Б1.Дисциплины по выбору" subjname="Мировая экономика" forma="зач." time="72" />
+    <subject profile="" nomerpo="7.4" cikl="Б3.Базовая часть" subjname="Основы кадровой политики и кадрового планирования" forma="зач." time="72" />
+    <subject profile="" nomerpo="8.4" cikl="Б3.Базовая часть" subjname="Основы организации труда" forma="экз." time="108" />
+    <subject profile="" nomerpo="9.4" cikl="Б3.Базовая часть" subjname="Психофизиология профессиональной деятельности" forma="зач." time="72" />
+    <subject profile="" nomerpo="10.4" cikl="Б2.Базовая часть" subjname="Статистика" forma="экз." time="142" />
+    <subject profile="" nomerpo="11.4" cikl="Б3.Базовая часть" subjname="Трудовое право" forma="экз." time="144" />
+    <subject profile="" nomerpo="12.4" cikl="Б3.Дисциплины по выбору" subjname="Управление знаниями" forma="зач." time="108" />
+    <subject profile="" nomerpo="13.4" cikl="Б5" subjname="Учебная практика" forma="отчет по практике (зач.)" time="108" />
+    <subject profile="" nomerpo="14.4" cikl="Б4.Базовая часть" subjname="Физическая культура" forma="зач." time="66" />
+    <subject profile="" nomerpo="15.4" cikl="Б3.Базовая часть" subjname="Экономика и социология труда" forma="зач." time="72" />
+  </semestr>
+  <semestr nomer="5">
+    <subject profile="" nomerpo="1.5" cikl="Б3.Вариативная часть" subjname="Бухгалтерский учет и анализ" forma="зач." time="108" />
+    <subject profile="" nomerpo="2.5" cikl="Б3.Базовая часть" subjname="Конфликтология" forma="зач." time="72" />
+    <subject profile="" nomerpo="3.5" cikl="Б3.Базовая часть" subjname="Маркетинг персонала" forma="экз." time="108" />
+    <subject profile="" nomerpo="4.5" cikl="Б3.Базовая часть" subjname="Мотивация и стимулирование трудовой деятельности" forma="зач." time="108" />
+    <subject profile="" nomerpo="5.5" cikl="Б3.Базовая часть" subjname="Организационная культура" forma="зач." time="72" />
+    <subject profile="" nomerpo="6.5" cikl="Б3.Базовая часть" subjname="Основы финансового менеджмента" forma="экз." time="144" />
+    <subject profile="" nomerpo="7.5" cikl="Б3.Базовая часть" subjname="Регламентация и нормирование труда" forma="зач." time="72" />
+    <subject profile="" nomerpo="8.5" cikl="Б2.Дисциплины по выбору" subjname="Статистика персонала" forma="зач." time="108" />
+    <subject profile="" nomerpo="9.5" cikl="Б2.Дисциплины по выбору" subjname="Статистика труда" forma="зач." time="108" />
+    <subject profile="" nomerpo="10.5" cikl="Б3.Базовая часть" subjname="Управление персоналом организации" forma="экз." time="144" />
+    <subject profile="" nomerpo="11.5" cikl="Б4.Базовая часть" subjname="Физическая культура" forma="зач." time="66" />
+    <subject profile="" nomerpo="12.5" cikl="Б3.Базовая часть" subjname="Экономика управления персоналом" forma="экз." time="108" />
+  </semestr>
+  <semestr nomer="6">
+    <subject profile="" nomerpo="1.6" cikl="Б3.Дисциплины по выбору" subjname="Бизнес-аналитика" forma="зач." time="108" />
+    <subject profile="" nomerpo="2.6" cikl="Б3.Базовая часть" subjname="Документационное обеспечение управления персоналом" forma="экз." time="108" />
+    <subject profile="" nomerpo="3.6" cikl="ОФ" subjname="Документоведение и делопроизводство" forma="зач." time="36" />
+    <subject profile="" nomerpo="4.6" cikl="ОФ" subjname="Документоведение и делопроизводство" forma="зач." time="36" />
+    <subject profile="" nomerpo="5.6" cikl="Б3.Дисциплины по выбору" subjname="Инвестиционный менеджмент" forma="зач." time="108" />
+    <subject profile="" nomerpo="6.6" cikl="Б3.Базовая часть" subjname="Инновационный менеджмент в управлении персоналом" forma="зач." time="72" />
+    <subject profile="" nomerpo="7.6" cikl="Б2.Базовая часть" subjname="Информационные технологии в управлении персоналом" forma="экз." time="180" />
+    <subject profile="" nomerpo="8.6" cikl="ОФ" subjname="Историческая география" forma="зач." time="36" />
+    <subject profile="" nomerpo="9.6" cikl="ОФ" subjname="Историческая география" forma="зач." time="36" />
+    <subject profile="" nomerpo="10.6" cikl="ОФ" subjname="Историческая география Сибири" forma="зач." time="36" />
+    <subject profile="" nomerpo="11.6" cikl="ОФ" subjname="Историческая география Сибири" forma="зач." time="36" />
+    <subject profile="" nomerpo="12.6" cikl="ОФ" subjname="История мировой культуры и искусства" forma="зач." time="36" />
+    <subject profile="" nomerpo="13.6" cikl="ОФ" subjname="История мировой культуры и искусства" forma="зач." time="36" />
+    <subject profile="" nomerpo="14.6" cikl="Б3.Базовая часть" subjname="Оплата труда персонала" forma="зач." time="72" />
+    <subject profile="" nomerpo="15.6" cikl="ОФ" subjname="Основы первой медицинской помощи" forma="зач." time="36" />
+    <subject profile="" nomerpo="16.6" cikl="ОФ" subjname="Основы первой медицинской помощи" forma="зач." time="36" />
+    <subject profile="" nomerpo="17.6" cikl="ОФ" subjname="Основы права" forma="зач." time="36" />
+    <subject profile="" nomerpo="18.6" cikl="ОФ" subjname="Основы права" forma="зач." time="36" />
+    <subject profile="" nomerpo="19.6" cikl="Б3.Вариативная часть" subjname="Основы предпринимательской деятельности" forma="зач." time="72" />
+    <subject profile="" nomerpo="20.6" cikl="Б3.Базовая часть" subjname="Основы управленческого консультирования" forma="зач." time="72" />
+    <subject profile="" nomerpo="21.6" cikl="ОФ" subjname="Психология труда" forma="зач." time="36" />
+    <subject profile="" nomerpo="22.6" cikl="ОФ" subjname="Психология труда" forma="зач." time="36" />
+    <subject profile="" nomerpo="23.6" cikl="Б3.Базовая часть" subjname="Управление социальным развитием персонала" forma="зач." time="72" />
+    <subject profile="" nomerpo="24.6" cikl="Б3.Базовая часть" subjname="Управленческий учет и учет персонала" forma="экз." time="108" />
+    <subject profile="" nomerpo="25.6" cikl="Б4.Базовая часть" subjname="Физическая культура" forma="зач." time="66" />
+    <subject profile="" nomerpo="26.6" cikl="ОФ" subjname="Экологический туризм" forma="зач." time="36" />
+    <subject profile="" nomerpo="27.6" cikl="ОФ" subjname="Экологический туризм" forma="зач." time="36" />
+    <subject profile="Управление персоналом организации" nomerpo="28.1.6" cikl="Б3.Вариативная часть" subjname="Стратегическое управление персоналом организации" forma="экз." time="180" />
+    <subject profile="Экономика труда" nomerpo="28.2.6" cikl="Б3.Вариативная часть" subjname="Микро и макроэкономика труда" forma="экз." time="180" />
+  </semestr>
+  <semestr nomer="7">
+    <subject profile="" nomerpo="1.7" cikl="Б3.Вариативная часть" subjname="Правовое регулирование управления персоналом" forma="экз." time="144" />
+    <subject profile="Управление персоналом организации" nomerpo="2.1.7" cikl="Б3.Вариативная часть" subjname="Антикризисное управление персоналом организации" forma="экз." time="144" />
+    <subject profile="Управление персоналом организации" nomerpo="2.1.7" cikl="Б3.Дисциплины по выбору" subjname="Аудит и контроллинг персонала организации" forma="экз." time="144" />
+    <subject profile="Управление персоналом организации" nomerpo="2.1.7" cikl="Б3.Вариативная часть" subjname="Прикладные исследования в управлении персоналом организации" forma="зач." time="72" />
+    <subject profile="Управление персоналом организации" nomerpo="2.1.7" cikl="Б3.Дисциплины по выбору" subjname="Психология труда" forma="зач." time="108" />
+    <subject profile="Управление персоналом организации" nomerpo="2.1.7" cikl="Б3.Дисциплины по выбору" subjname="Психотехники и тренинги" forma="зач." time="108" />
+    <subject profile="Управление персоналом организации" nomerpo="2.1.7" cikl="Б3.Вариативная часть" subjname="Технологии персонального менеджмента" forma="экз." time="144" />
+    <subject profile="Управление персоналом организации" nomerpo="2.1.7" cikl="Б3.Дисциплины по выбору" subjname="Управление персоналом в системе менеджмента качества" forma="экз." time="144" />
+    <subject profile="Управление персоналом организации" nomerpo="2.1.7" cikl="Б3.Вариативная часть" subjname="Управление профессиональным развитием персонала организации" forma="зач." time="108" />
+    <subject profile="Экономика труда" nomerpo="2.2.7" cikl="Б3.Вариативная часть" subjname="Анализ и планирование трудовых показателей в организации" forma="экз." time="144" />
+    <subject profile="Экономика труда" nomerpo="2.2.7" cikl="Б3.Дисциплины по выбору" subjname="Качество и уровень жизни населения" forma="экз." time="144" />
+    <subject profile="Экономика труда" nomerpo="2.2.7" cikl="Б3.Дисциплины по выбору" subjname="Качество трудовой жизни" forma="экз." time="144" />
+    <subject profile="Экономика труда" nomerpo="2.2.7" cikl="Б3.Дисциплины по выбору" subjname="Налоговая политика субъектов хозяйствования" forma="зач." time="108" />
+    <subject profile="Экономика труда" nomerpo="2.2.7" cikl="Б3.Дисциплины по выбору" subjname="Налогообложение экономических субъектов" forma="зач." time="108" />
+    <subject profile="Экономика труда" nomerpo="2.2.7" cikl="Б3.Вариативная часть" subjname="Политика доходов и заработной платы" forma="зач." time="108" />
+    <subject profile="Экономика труда" nomerpo="2.2.7" cikl="Б3.Вариативная часть" subjname="Учет, анализ и аудит вознаграждений персонала" forma="зач." time="72" />
+    <subject profile="Экономика труда" nomerpo="2.2.7" cikl="Б3.Вариативная часть" subjname="Эргономика труда" forma="экз." time="144" />
+  </semestr>
+  <semestr nomer="8">
+    <subject profile="" nomerpo="1.8" cikl="Б6" subjname="Выпускная квалификационная работа" forma="" time="324" />
+    <subject profile="" nomerpo="2.8" cikl="Б6" subjname="Выпускная квалификационная работа" forma="" time="324" />
+    <subject profile="" nomerpo="3.8" cikl="Б6" subjname="Государственный экзамен по направлению" forma="" time="108" />
+    <subject profile="" nomerpo="4.8" cikl="Б6" subjname="Государственный экзамен по направлению" forma="" time="108" />
+    <subject profile="" nomerpo="5.8" cikl="Б3.Дисциплины по выбору" subjname="Компьютерное обеспечение расчетов по труду" forma="зач." time="72" />
+    <subject profile="" nomerpo="6.8" cikl="Б3.Вариативная часть" subjname="Правовое регулирование трудовых споров" forma="зач." time="72" />
+    <subject profile="" nomerpo="7.8" cikl="Б3.Дисциплины по выбору" subjname="Профессиональные информационные системы и базы данных в управлении персоналом" forma="зач." time="72" />
+    <subject profile="Управление персоналом организации" nomerpo="8.1.8" cikl="Б3.Дисциплины по выбору" subjname="Кадровая безопасность организации" forma="экз." time="108" />
+    <subject profile="Управление персоналом организации" nomerpo="8.1.8" cikl="Б3.Вариативная часть" subjname="Кадровый консалтинг" forma="экз." time="144" />
+    <subject profile="Управление персоналом организации" nomerpo="8.1.8" cikl="Б3.Вариативная часть" subjname="Компенсационный менеджмент" forma="экз." time="144" />
+    <subject profile="Управление персоналом организации" nomerpo="8.1.8" cikl="Б3.Вариативная часть" subjname="Креативный менеджмент" forma="зач." time="72" />
+    <subject profile="Управление персоналом организации" nomerpo="8.1.8" cikl="Б5" subjname="Производственная (преддипломная) практика" forma="отчет по практике (оценка)" time="108" />
+    <subject profile="Управление персоналом организации" nomerpo="8.1.8" cikl="Б3.Вариативная часть" subjname="Рекрутмент" forma="экз." time="144" />
+    <subject profile="Управление персоналом организации" nomerpo="8.1.8" cikl="Б3.Дисциплины по выбору" subjname="Управление кадровыми рисками" forma="экз." time="108" />
+    <subject profile="Экономика труда" nomerpo="8.2.8" cikl="Б3.Дисциплины по выбору" subjname="Отраслевые особенности труда" forma="экз." time="108" />
+    <subject profile="Экономика труда" nomerpo="8.2.8" cikl="Б3.Вариативная часть" subjname="Оценка эффективности трудовых процессов в организации" forma="экз." time="144" />
+    <subject profile="Экономика труда" nomerpo="8.2.8" cikl="Б5" subjname="Производственная (преддипломная) практика" forma="отчет по практике (оценка)" time="108" />
+    <subject profile="Экономика труда" nomerpo="8.2.8" cikl="Б3.Дисциплины по выбору" subjname="Региональный рынок труда" forma="экз." time="108" />
+    <subject profile="Экономика труда" nomerpo="8.2.8" cikl="Б3.Вариативная часть" subjname="Социальное страхование" forma="зач." time="72" />
+    <subject profile="Экономика труда" nomerpo="8.2.8" cikl="Б3.Вариативная часть" subjname="Управление производительностью труда" forma="экз." time="144" />
+    <subject profile="Экономика труда" nomerpo="8.2.8" cikl="Б3.Вариативная часть" subjname="Формирование и оценка трудового потенциала организации" forma="экз." time="144" />
+  </semestr>
+</info>

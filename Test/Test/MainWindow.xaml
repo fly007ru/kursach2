@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded">
     <Grid>
-        <TextBox Name="txb" HorizontalAlignment="Stretch" Height="320" TextWrapping="Wrap"  Text="TextBox" VerticalAlignment="Stretch" Margin="0" Width="507"/>
+        <TextBox Name="txb" HorizontalAlignment="Stretch" Height="Auto" TextWrapping="Wrap"  Text="TextBox" VerticalAlignment="Stretch"  Margin="0" Width="Auto"/>
 
     </Grid>
 </Window>

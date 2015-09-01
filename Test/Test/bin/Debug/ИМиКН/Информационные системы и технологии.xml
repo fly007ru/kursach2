@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<info name="Информационные системы и технологии" form="Бакалавр" URL="http://www.umk3plus.utmn.ru/?section=speciality&amp;id=645">
+  <semestr number="1">
+    <subject profile="" number="1.1" cikl="Б1.Базовая часть" subject="Алгебра и геометрия" forma="экз." time="144" />
+    <subject profile="" number="2.1" cikl="Б1.Базовая часть" subject="Иностранный язык (английский)" forma="зач." time="144" />
+    <subject profile="" number="3.1" cikl="Б1.Базовая часть" subject="Информатика" forma="экз." time="216" />
+    <subject profile="" number="4.1" cikl="Б1.Базовая часть" subject="История" forma="экз." time="108" />
+    <subject profile="" number="5.1" cikl="Б1.Базовая часть" subject="Математический анализ" forma="экз." time="144" />
+    <subject profile="" number="6.1" cikl="Б1.Базовая часть" subject="Русский язык и культура речи" forma="зач." time="72" />
+    <subject profile="" number="7.1" cikl="Б1.Базовая часть" subject="Управление информационными проектами и ресурсами" forma="зач." time="126" />
+    <subject profile="" number="8.1" cikl="Б1.Базовая часть" subject="Физическая культура (учебно-тренировочные занятия)" forma="зач." time="68" />
+    <subject profile="" number="9.1" cikl="Б1.Вариативная часть" subject="Химия" forma="зач." time="108" />
+  </semestr>
+  <semestr number="2">
+    <subject profile="" number="1.2" cikl="Б1.Вариативная часть" subject="Дискретная математика" forma="зач." time="108" />
+    <subject profile="" number="2.2" cikl="Б1.Базовая часть" subject="Иностранный язык (английский)" forma="зач." time="144" />
+    <subject profile="" number="3.2" cikl="Б1.Базовая часть" subject="Информатика" forma="экз." time="144" />
+    <subject profile="" number="4.2" cikl="Б1.Вариативная часть" subject="Математическая логика и теория алгоритмов" forma="зач." time="108" />
+    <subject profile="" number="5.2" cikl="Б1.Базовая часть" subject="Математический анализ" forma="экз." time="144" />
+    <subject profile="" number="6.2" cikl="Б1.Базовая часть" subject="Управление информационными проектами и ресурсами" forma="экз." time="126" />
+    <subject profile="" number="7.2" cikl="Б1.Вариативная часть" subject="Физика" forma="зач." time="180" />
+    <subject profile="" number="8.2" cikl="Б1.Базовая часть" subject="Физическая культура (учебно-тренировочные занятия)" forma="зач." time="66" />
+    <subject profile="" number="9.2" cikl="Б1.Базовая часть" subject="Философия" forma="экз." time="144" />
+  </semestr>
+  <semestr number="3">
+    <subject profile="" number="1.3" cikl="Б1.Базовая часть" subject="Иностранный язык (английский)" forma="экз." time="72" />
+    <subject profile="" number="2.3" cikl="Б1.Дисциплины по выбору" subject="Иностранный язык в информационных технологиях (английский)" forma="зач." time="72" />
+    <subject profile="" number="3.3" cikl="Б1.Дисциплины по выбору" subject="Иностранный язык в профессиональной сфере (английский)" forma="зач." time="72" />
+    <subject profile="" number="4.3" cikl="Б1.Дисциплины по выбору" subject="Информационно-поисковые языки" forma="экз." time="180" />
+    <subject profile="" number="5.3" cikl="Б1.Дисциплины по выбору" subject="Моделирование процессов и систем" forma="экз." time="216" />
+    <subject profile="" number="6.3" cikl="Б1.Дисциплины по выбору" subject="Моделирование экономических процессов и систем" forma="экз." time="216" />
+    <subject profile="" number="7.3" cikl="Б1.Вариативная часть" subject="Теория автоматов" forma="зач." time="72" />
+    <subject profile="" number="8.3" cikl="Б1.Вариативная часть" subject="Теория вероятностей и математическая статистика" forma="зач." time="72" />
+    <subject profile="" number="9.3" cikl="Б1.Вариативная часть" subject="Теория информации" forma="зач." time="72" />
+    <subject profile="" number="10.3" cikl="Б2.Вариативная часть" subject="Учебная практика" forma="отчет по практике (зач.)" time="180" />
+    <subject profile="" number="11.3" cikl="Б1.Вариативная часть" subject="Физика" forma="экз." time="108" />
+    <subject profile="" number="12.3" cikl="Б1.Базовая часть" subject="Физическая культура (учебно-тренировочные занятия)" forma="зач." time="68" />
+    <subject profile="" number="13.3" cikl="Б1.Дисциплины по выбору" subject="Языки программирования" forma="экз." time="180" />
+  </semestr>
+  <semestr number="4">
+    <subject profile="" number="1.4" cikl="Б1.Базовая часть" subject="Архитектура информационных систем" forma="экз." time="180" />
+    <subject profile="" number="2.4" cikl="Б1.Базовая часть" subject="Базовые информационные процессы и технологии" forma="зач." time="108" />
+    <subject profile="" number="3.4" cikl="Б1.Базовая часть" subject="Вычислительные сети" forma="зач." time="108" />
+    <subject profile="" number="4.4" cikl="Б1.Дисциплины по выбору" subject="Иностранный язык в информационных технологиях (английский)" forma="экз." time="144" />
+    <subject profile="" number="5.4" cikl="Б1.Дисциплины по выбору" subject="Иностранный язык в профессиональной сфере (английский)" forma="экз." time="144" />
+    <subject profile="" number="6.4" cikl="Б1.Вариативная часть" subject="Инфокоммуникационные системы" forma="зач." time="108" />
+    <subject profile="" number="7.4" cikl="Б1.Базовая часть" subject="Теория информационных процессов и систем" forma="экз." time="180" />
+    <subject profile="" number="8.4" cikl="Б1.Базовая часть" subject="Теория принятия решений" forma="зач." time="72" />
+    <subject profile="" number="9.4" cikl="Б1.Вариативная часть" subject="Технологии программирования" forma="экз." time="216" />
+    <subject profile="" number="10.4" cikl="Б1.Базовая часть" subject="Физическая культура (учебно-тренировочные занятия)" forma="зач." time="66" />
+  </semestr>
+  <semestr number="5">
+    <subject profile="" number="1.5" cikl="Б1.Дисциплины по выбору" subject="Web технологии" forma="экз." time="252" />
+    <subject profile="" number="2.5" cikl="Б1.Базовая часть" subject="Базовые информационные процессы и технологии" forma="экз." time="144" />
+    <subject profile="" number="3.5" cikl="Б1.Вариативная часть" subject="Инструментальные средства поддержки принятия решений" forma="зач." time="108" />
+    <subject profile="" number="4.5" cikl="Б1.Дисциплины по выбору" subject="Информационные системы логистики" forma="зач." time="108" />
+    <subject profile="" number="5.5" cikl="Б1.Базовая часть" subject="Информационные технологии" forma="экз." time="180" />
+    <subject profile="" number="6.5" cikl="Б1.Дисциплины по выбору" subject="Протоколы и интерфейсы информационных систем" forma="зач." time="90" />
+    <subject profile="" number="7.5" cikl="Б1.Дисциплины по выбору" subject="Телекоммуникационные технологии" forma="экз." time="252" />
+    <subject profile="" number="8.5" cikl="Б1.Базовая часть" subject="Управление данными" forma="экз." time="180" />
+    <subject profile="" number="9.5" cikl="Б2.Вариативная часть" subject="Учебная практика" forma="отчет по практике (зач.)" time="36" />
+    <subject profile="" number="10.5" cikl="Б1.Базовая часть" subject="Физическая культура (теория и методика)" forma="зач." time="36" />
+    <subject profile="" number="11.5" cikl="Б1.Базовая часть" subject="Физическая культура (учебно-тренировочные занятия)" forma="зач." time="30" />
+  </semestr>
+  <semestr number="6">
+    <subject profile="" number="1.6" cikl="Б1.Дисциплины по выбору" subject="Администрирование информационных систем" forma="зач." time="108" />
+    <subject profile="" number="2.6" cikl="ОФ" subject="Документоведение и делопроизводство" forma="зач." time="36" />
+    <subject profile="" number="3.6" cikl="Б1.Дисциплины по выбору" subject="Информационные системы логистики" forma="экз." time="144" />
+    <subject profile="" number="4.6" cikl="ОФ" subject="Историческая география" forma="зач." time="36" />
+    <subject profile="" number="5.6" cikl="ОФ" subject="Историческая география Сибири" forma="зач." time="36" />
+    <subject profile="" number="6.6" cikl="ОФ" subject="История мировой культуры и искусства" forma="зач." time="36" />
+    <subject profile="" number="7.6" cikl="Б2.Базовая часть" subject="Курсовая работа по направлению" forma="курсовая по напр./спец. (экз.)" time="0" />
+    <subject profile="" number="8.6" cikl="Б1.Базовая часть" subject="Методы и средства проектирования информационных систем и технологий" forma="экз." time="252" />
+    <subject profile="" number="9.6" cikl="ОФ" subject="Основы первой медицинской помощи" forma="зач." time="36" />
+    <subject profile="" number="10.6" cikl="ОФ" subject="Основы права" forma="зач." time="36" />
+    <subject profile="" number="11.6" cikl="Б1.Базовая часть" subject="Основы предпринимательской деятельности" forma="зач." time="72" />
+    <subject profile="" number="12.6" cikl="Б2.Вариативная часть" subject="Производственная практика" forma="отчет по практике (оценка)" time="144" />
+    <subject profile="" number="13.6" cikl="Б1.Дисциплины по выбору" subject="Протоколы и интерфейсы информационных систем" forma="экз." time="162" />
+    <subject profile="" number="14.6" cikl="ОФ" subject="Психология труда" forma="зач." time="36" />
+    <subject profile="" number="15.6" cikl="Б1.Дисциплины по выбору" subject="Стандартизация и унификация информационных технологий" forma="зач." time="108" />
+    <subject profile="" number="16.6" cikl="Б1.Базовая часть" subject="Технологии обработки информации" forma="экз." time="216" />
+    <subject profile="" number="17.6" cikl="Б1.Базовая часть" subject="Физическая культура (теория и методика)" forma="зач." time="36" />
+    <subject profile="" number="18.6" cikl="Б1.Базовая часть" subject="Физическая культура (учебно-тренировочные занятия)" forma="зач." time="30" />
+    <subject profile="" number="19.6" cikl="ОФ" subject="Экологический туризм" forma="зач." time="36" />
+    <subject profile="Информационные системы и технологии в административном управлении" number="20.1.6" cikl="Б1.Вариативная часть" subject="Технологии искусственного интеллекта в управлении" forma="экз." time="144" />
+  </semestr>
+  <semestr number="7">
+    <subject profile="" number="1.7" cikl="Б1.Дисциплины по выбору" subject="Администрирование информационных систем" forma="экз." time="72" />
+    <subject profile="" number="2.7" cikl="Б1.Базовая часть" subject="Инструментальные средства информационных систем" forma="экз." time="216" />
+    <subject profile="" number="3.7" cikl="Б1.Вариативная часть" subject="Интеллектуальные информационные системы и технологии" forma="экз." time="180" />
+    <subject profile="" number="4.7" cikl="Б1.Дисциплины по выбору" subject="Стандартизация и унификация информационных технологий" forma="экз." time="72" />
+    <subject profile="" number="5.7" cikl="Б2.Вариативная часть" subject="Учебная практика" forma="отчет по практике (зач.)" time="144" />
+    <subject profile="" number="6.7" cikl="Б1.Базовая часть" subject="Экология" forma="зач." time="108" />
+    <subject profile="Информационные системы и технологии в административном управлении" number="7.1.7" cikl="Б1.Вариативная часть" subject="Корпоративные информационные системы" forma="зач." time="144" />
+    <subject profile="Информационные системы и технологии в административном управлении" number="7.1.7" cikl="Б1.Вариативная часть" subject="Проектирование информационных систем управления" forma="экз." time="216" />
+  </semestr>
+  <semestr number="8">
+    <subject profile="" number="1.8" cikl="Б1.Базовая часть" subject="Безопасность жизнедеятельности" forma="зач." time="72" />
+    <subject profile="" number="2.8" cikl="Б3.Базовая часть" subject="Выпускная квалификационная работа" forma="" time="216" />
+    <subject profile="" number="3.8" cikl="Б2.Вариативная часть" subject="Преддипломная практика" forma="отчет по практике (оценка)" time="360" />
+    <subject profile="Информационные системы и технологии в административном управлении" number="4.1.8" cikl="Б1.Вариативная часть" subject="Корпоративные информационные системы" forma="экз." time="216" />
+    <subject profile="Информационные системы и технологии в административном управлении" number="4.1.8" cikl="Б1.Вариативная часть" subject="Проектирование информационных систем управления" forma="экз." time="216" />
+  </semestr>
+</info>
