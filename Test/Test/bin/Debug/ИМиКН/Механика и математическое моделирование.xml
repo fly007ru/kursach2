@@ -93,7 +93,7 @@
     <subject profile="" number="1.8" cikl="Б1.Базовая часть" subject="Безопасность жизнедеятельности" forma="зач." time="72" />
     <subject profile="" number="2.8" cikl="Б1.Дисциплины по выбору" subject="Вариационное исчисление и оптимальное управление" forma="экз." time="108" />
     <subject profile="" number="3.8" cikl="Б1.Дисциплины по выбору" subject="Волновые процессы" forma="экз." time="108" />
-    <subject profile="" number="4.8" cikl="Б3.Базовая часть" subject="Выпускная квалификационная работа" forma="" time="288" />
+    <subject profile="" number="4.8" cikl="Б3.Базовая часть" subject="Выпускная квалификационная работа" forma="" time="252" />
     <subject profile="" number="5.8" cikl="Б1.Дисциплины по выбору" subject="История развития математической науки" forma="зач." time="72" />
     <subject profile="" number="6.8" cikl="Б1.Дисциплины по выбору" subject="Магнитная гидродинамика" forma="экз." time="108" />
     <subject profile="" number="7.8" cikl="Б1.Дисциплины по выбору" subject="Методологические основы обучения математике" forma="зач." time="72" />
@@ -102,7 +102,7 @@
     <subject profile="" number="10.8" cikl="Б1.Базовая часть" subject="Основы предпринимательской деятельности" forma="зач." time="72" />
     <subject profile="" number="11.8" cikl="Б1.Вариативная часть" subject="Основы экологии" forma="зач." time="72" />
     <subject profile="" number="12.8" cikl="Б2.Вариативная часть" subject="Преддипломная практика" forma="отчет по практике (оценка)" time="108" />
-    <subject profile="" number="13.8" cikl="Б2.Вариативная часть" subject="Производственная практика" forma="отчет по практике (оценка)" time="72" />
+    <subject profile="" number="13.8" cikl="Б2.Вариативная часть" subject="Производственная практика" forma="отчет по практике (оценка)" time="108" />
     <subject profile="" number="14.8" cikl="Б1.Дисциплины по выбору" subject="Устойчивость и управление движением" forma="зач." time="72" />
     <subject profile="" number="15.8" cikl="Б1.Базовая часть" subject="Физико-механический практикум и вычислительный эксперимент" forma="зач." time="54" />
   </semestr>

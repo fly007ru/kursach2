@@ -16,115 +16,14 @@ using Hap = HtmlAgilityPack;
 using System.Net;
 using System.IO;
 using System.Xml.Linq;
+using Microsoft.Win32;
+using System.Xml;
+using System.Xml.XPath;
+using System.Data;
+
 
 namespace Test
-{
-    public class Subject 
-    {
-        string profile_, number_, cikl_, name_, forma_;
-        int time_;
-
-        public string profile
-        {
-            get { return profile_ ; }
-            set { profile_ = value; }
-        }
-
-        public string number 
-        {
-            get { return number_; }
-            set { number_ = value; }
-
-        }
-
-        public string cikl
-        {
-            get { return cikl_; }
-            set { cikl_ = value; }
-        }
-        public string name
-        {
-            get { return name_; }
-            set { name_ = value; }
-        }
-
-        public string forma
-        {
-            get { return forma_; }
-            set { forma_ = value; }
-        }
-        public int time
-        {
-            get { return time_; }
-            set
-            {
-                if (time < 0) time_ = 0; else time_ = value;
-
-            }
-        }
-        public Subject(string in_profile, string in_number, string in_cikl, string in_name, string in_forma ,int in_time)
-        {
-            profile = in_profile;
-            number = in_number;
-            cikl = in_cikl;
-            name = in_name;
-            forma = in_forma;
-            time = in_time;
-        }
-    }
-
-    public class Semestr
-    {
-        int number_;
-        public List<Subject> LS_;
-
-        public int number
-        {
-            get { return number_; }
-            set
-            {
-                if (number < 0) number_ = 0; else number_ = number;
-
-            }
-        }
-
-        public Semestr(int in_number, List<Subject> in_LS)
-        {
-            LS_ = new List<Subject>();
-            LS_.AddRange(in_LS);
-            number = in_number;
-        }
-    }
-    public class Spec
-    {
-        string name_, form_, URL_;
-        public List<Semestr> LSem_;
-
-        public string name
-        {
-            get { return name_; }
-            set { name_ = name; }
-        }
-        public string form
-        {
-            get { return form_; }
-            set { form_ = form; }
-        }
-        public string URL
-       {
-            get { return URL_; }
-            set { URL_ = URL; }
-        }
-
-        public Spec(string in_name, string in_form, string in_URL, List<Semestr> in_LSem)
-        {
-            LSem_ = new List<Semestr>();
-            LSem_.AddRange(in_LSem);
-            name = in_name;
-            form = in_form;
-            URL = in_URL;
-        }
-    }
+{ 
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
@@ -137,6 +36,7 @@ namespace Test
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
+            return;
             string parentsite = "http://www.umk3plus.utmn.ru/";
             txb.Text = "work";
             //MessageBox.Show("Start");
@@ -151,31 +51,30 @@ namespace Test
             //MessageBox.Show("Loadstring");
             Hap.HtmlDocument doc = web.Load(url);
             //MessageBox.Show("LoadDOM");
-            var h1 = doc.DocumentNode.SelectNodes("//table[@class='text']").ToArray()[1];
-            if (h1 == null) MessageBox.Show("null");
+            var content = doc.DocumentNode.SelectNodes("//table[@class='text']").ToArray()[1];
+            if (content == null) MessageBox.Show("null");
             //"//a[@class='menu']").First(); //doc.DocumentNode.SelectNodes("/html/head/title").First(); //doc.DocumentNode.SelectNodes("//h3").First();
             int i = 0, j = 5, k = 0;
             string urlspec = "";
             Hap.HtmlDocument docspec;
             Directory.CreateDirectory("ИМиКН");
-            foreach (var n in h1.ChildNodes)
+            foreach (var node in content.ChildNodes)
             {
-
                 //txb.Text += n.InnerHtml;
-                if (i > 2 && i % 2 == 1 && n.ChildNodes.Count > 5)
+                if (i > 2 && i % 2 == 1 && node.ChildNodes.Count > 5)
                 {
                     XElement xspec = new XElement("info", null);
 
-                    xspec.SetAttributeValue("name", n.ChildNodes[5 - k].InnerText);
-                    xspec.SetAttributeValue("form", n.ChildNodes[7 - k].InnerText);
-                    xspec.SetAttributeValue("URL", parentsite + n.ChildNodes[9 - k].ChildNodes[0].Attributes["href"].Value);
+                    xspec.SetAttributeValue("name", node.ChildNodes[5 - k].InnerText);
+                    xspec.SetAttributeValue("form", node.ChildNodes[7 - k].InnerText);
+                    xspec.SetAttributeValue("URL", parentsite + node.ChildNodes[9 - k].ChildNodes[0].Attributes["href"].Value);
 
                     string s = xspec.ToString();
                     //x.SetAttributeNode("version", "1.0");
                     //txb.Text += "Специальность " + n.ChildNodes[5 - k].InnerText;
                     //txb.Text += "Форма обучения " + n.ChildNodes[7 - k].InnerText;
                     //txb.Text += "URL " + parentsite + n.ChildNodes[9 - k].ChildNodes[0].Attributes["href"].Value + " \n";
-                    urlspec = parentsite + n.ChildNodes[9 - k].ChildNodes[0].Attributes["href"].Value;
+                    urlspec = parentsite + node.ChildNodes[9 - k].ChildNodes[0].Attributes["href"].Value;
                     docspec = web.Load(urlspec);
                     string zapros = "//table[@cellspacing='4']/tbody";
                     bool ok = true;
@@ -292,6 +191,47 @@ namespace Test
             }
 
             MessageBox.Show("First");
+        }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog dlg = new OpenFileDialog();
+            var filename = "";
+
+            if (dlg.ShowDialog() == true)
+            {
+                filename = dlg.FileName;
+            }
+
+            /*XmlDocument doc = new XmlDocument();
+            doc.Load(filename);
+
+            var root = doc.DocumentElement;
+            DataTable dt = new DataTable();
+            dt.Columns.Add("Имя");
+            dt.Columns.Add("Контроль");
+            dt.Columns.Add("Часы");
+            foreach (XmlNode semestr in root)
+            {
+                dt.Rows.Add("Семестр " + semestr.Attributes[0].Value);
+                foreach (XmlNode subject in semestr)
+                {
+                    dt.Rows.Add(subject.Attributes[3].Value, subject.Attributes[4].Value, subject.Attributes[5].Value);
+                }
+            }
+            curplan.ItemsSource = dt.DefaultView;*/
+
+            ExcelDoc exceldoc = new ExcelDoc(filename);
+            //нумерация в документе не с нуля
+            for (int i = 1; i <= exceldoc.usedRowsNum; i++)
+                //for (int j = 1; j <= exceldoc.usedColumnsNum; j++)
+                {
+                    MessageBox.Show(exceldoc.GetCellValue(i, 1)); //имя предмета
+                    MessageBox.Show(exceldoc.GetCellValue(i, 2)); //часы
+                    MessageBox.Show(exceldoc.GetCellValue(i, 3)); //форма контроля
+                    
+                }
+            exceldoc.Close();
         }
     }
 }

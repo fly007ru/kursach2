@@ -3,7 +3,30 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded">
     <Grid>
-        <TextBox Name="txb" HorizontalAlignment="Stretch" Height="Auto" TextWrapping="Wrap"  Text="TextBox" VerticalAlignment="Stretch"  Margin="0" Width="Auto"/>
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="54*"></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBox Name="txb" HorizontalAlignment="Stretch" Height="Auto" TextWrapping="Wrap"  Text="TextBox" VerticalAlignment="Stretch"  Margin="146,89,112,19" Width="Auto" Grid.Row="1"/>
+        <Menu Grid.Row="0" Grid.ColumnSpan="2">
+            <MenuItem Header="File" Click="MenuItem_Click">
+                <MenuItem Header="Open"></MenuItem>
+                <Separator></Separator>
+                <MenuItem Header="Exit"></MenuItem>
+            </MenuItem>
+        </Menu>
+        <DataGrid x:Name="curplan" Grid.Row="1" Grid.Column="0">
+          
+        </DataGrid>
+        <DataGrid Grid.Row="1" Grid.Column="1"/>
     </Grid>
+
+
+
+
 </Window>

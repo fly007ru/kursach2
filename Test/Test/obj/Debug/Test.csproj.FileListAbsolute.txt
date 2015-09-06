@@ -46,3 +46,4 @@ C:\Users\polei\Documents\GitHub\kursach2\Test\Test\obj\Debug\Test_MarkupCompile.
 C:\Users\polei\Documents\GitHub\kursach2\Test\Test\obj\Debug\Test.g.resources
 C:\Users\polei\Documents\GitHub\kursach2\Test\Test\obj\Debug\Test.Properties.Resources.resources
 C:\Users\polei\Documents\GitHub\kursach2\Test\Test\obj\Debug\Test.csproj.GenerateResource.Cache
+C:\Users\Oleg\Documents\GitHub\kursach2\Test\Test\bin\Debug\ExcelLibrary.dll
