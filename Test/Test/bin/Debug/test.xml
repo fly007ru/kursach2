@@ -1,16 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<info name="Информационная безопасность" form="Бакалавр" URL="http://www.umk3plus.utmn.ru/?section=speciality&amp;id=643">
-  <semestr nomer="1">
-    <subject profile="" nomerpo="1.1" cikl="ОФ" subjname="Высшая математика для гуманитариев" forma="зач." time="36" />
-  </semestr>
-  <semestr nomer="6">
-    <subject profile="" nomerpo="1.6" cikl="ОФ" subjname="Документоведение и делопроизводство" forma="зач." time="36" />
-    <subject profile="" nomerpo="2.6" cikl="ОФ" subjname="Историческая география" forma="зач." time="36" />
-    <subject profile="" nomerpo="3.6" cikl="ОФ" subjname="Историческая география Сибири" forma="зач." time="36" />
-    <subject profile="" nomerpo="4.6" cikl="ОФ" subjname="История мировой культуры и искусства" forma="зач." time="36" />
-    <subject profile="" nomerpo="5.6" cikl="ОФ" subjname="Основы первой медицинской помощи" forma="зач." time="36" />
-    <subject profile="" nomerpo="6.6" cikl="ОФ" subjname="Основы права" forma="зач." time="36" />
-    <subject profile="" nomerpo="7.6" cikl="ОФ" subjname="Психология труда" forma="зач." time="36" />
-    <subject profile="" nomerpo="8.6" cikl="ОФ" subjname="Экологический туризм" forma="зач." time="36" />
-  </semestr>
-</info>
+	<subjects>
+		<subj name="Геометрия">
+			<DictionaryItem name="Дифф. геометрия" status="true" />
+		</subj>
+	</subjects>

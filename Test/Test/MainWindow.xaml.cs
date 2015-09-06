@@ -220,18 +220,49 @@ namespace Test
                 }
             }
             curplan.ItemsSource = dt.DefaultView;*/
-
-            ExcelDoc exceldoc = new ExcelDoc(filename);
+            
+            //тестирум считывание из экселя - Лимон
+            //List<Subject> in_ls = new List<Subject>();
+            //ExcelDoc exceldoc = new ExcelDoc(filename);
             //нумерация в документе не с нуля
-            for (int i = 1; i <= exceldoc.usedRowsNum; i++)
-                //for (int j = 1; j <= exceldoc.usedColumnsNum; j++)
+            /*for (int i = 1; i <= exceldoc.usedRowsNum; i++)
+            {
+                try
                 {
-                    MessageBox.Show(exceldoc.GetCellValue(i, 1)); //имя предмета
-                    MessageBox.Show(exceldoc.GetCellValue(i, 2)); //часы
-                    MessageBox.Show(exceldoc.GetCellValue(i, 3)); //форма контроля
-                    
+                    Subject s = new Subject("", "", "", exceldoc.GetCellValue(i, 1), exceldoc.GetCellValue(i, 3), Convert.ToInt16(exceldoc.GetCellValue(i, 2)));
+                    in_ls.Add(s);
                 }
-            exceldoc.Close();
+                catch { }
+            }
+            exceldoc.Close();*/
+
+            //тестируем сохранение Словаря - Лимон - вроде норм
+            /*DictionaryItem di = new DictionaryItem("Дифф. геометрия", true);
+            XDocument SpecDoc = new XDocument();
+            XElement xzag = new XElement("subj",null);
+            xzag.SetAttributeValue("name", "Геометрия");
+            xzag.Add(di.XML());
+            SpecDoc.Add(xzag);
+            SpecDoc.Save("test.xml");*/
+
+            //тестируем считывание словаря, почему-то спускается ниже чем надо сразу. решил проблему добавлением одного тега 
+            List<SubjForCompare> lsfb = new List<SubjForCompare>();
+            XmlDocument doc = new XmlDocument();
+            doc.Load(filename);
+            var root = doc.DocumentElement;
+            //doc.
+            //doc;
+            foreach (XmlNode Sfbf in root)
+            {
+               SubjForCompare sfb = new SubjForCompare(new Subject("", "", "", Sfbf.Attributes[0].Value, "", 0), null, null);  
+                foreach (XmlNode di in Sfbf)
+                {
+                    sfb.lDic.Add(new DictionaryItem(di.Attributes[0].Value, Convert.ToBoolean(di.Attributes[1].Value)));
+                    //(subject.Attributes[3].Value, subject.Attributes[4].Value, subject.Attributes[5].Value);
+                }
+                int i = 0;
+            }
+            
         }
     }
 }

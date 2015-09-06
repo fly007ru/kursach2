@@ -74,10 +74,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="DictionaryItem.cs" />
     <Compile Include="ExcelDoc.cs" />
     <Compile Include="Semestr.cs" />
     <Compile Include="Spec.cs" />
     <Compile Include="Subject.cs" />
+    <Compile Include="SubjForCompare.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
