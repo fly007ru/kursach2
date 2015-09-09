@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-	<subjects>
-		<subj name="Геометрия">
-			<DictionaryItem name="Дифф. геометрия" status="true" />
-		</subj>
-	</subjects>
+<subjects>
+  <subj name="Геометрия">
+    <DictionaryItem name="Дифф. геометрия" status="true" />
+    <DictionaryItem name="Топ. геометрия" status="true" />
+  </subj>
+  <subj name="Алгебра" />
+</subjects>

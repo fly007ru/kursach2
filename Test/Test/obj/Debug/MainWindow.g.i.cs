@@ -48,7 +48,7 @@ namespace Test {
         #line hidden
         
         
-        #line 23 "..\..\MainWindow.xaml"
+        #line 24 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.DataGrid curplan;
         

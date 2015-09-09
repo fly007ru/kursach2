@@ -237,24 +237,46 @@ namespace Test
             exceldoc.Close();*/
 
             //тестируем сохранение Словаря - Лимон - вроде норм
-            /*DictionaryItem di = new DictionaryItem("Дифф. геометрия", true);
+
+
+
+            List<SubjForCompare> lsfc = new List<SubjForCompare>();
+            SubjForCompare sfb = new SubjForCompare(new Subject("", "", "", "Геометрия", "", 0), null, null);
+            sfb.lDic.Add(new DictionaryItem("Дифф. геометрия", true));
+            sfb.lDic.Add(new DictionaryItem("Топ. геометрия", true));
+            lsfc.Add(sfb);
+            sfb = new SubjForCompare(new Subject("", "", "", "Алгебра", "", 0), null, null);
+            lsfc.Add(sfb);
             XDocument SpecDoc = new XDocument();
-            XElement xzag = new XElement("subj",null);
-            xzag.SetAttributeValue("name", "Геометрия");
-            xzag.Add(di.XML());
-            SpecDoc.Add(xzag);
-            SpecDoc.Save("test.xml");*/
+            XElement xfic = new XElement("subjects", null);
+            SpecDoc.Add(xfic);
+            for (int i8 = 0; i8 < lsfc.Count; i8++) 
+            {
+                XElement xsubj = new XElement("subj", null);
+                xsubj.SetAttributeValue("name", lsfc[i8].subj.name);
+                for (int i9 = 0; i9 < lsfc[i8].lDic.Count; i9++)
+                {
+                  //  XElement xdic = new XElement("DictionaryItem", null);
+                  //  xdic.SetAttributeValue("name", lsfc[i8].lDic[i9].name);
+                  //  xdic.SetAttributeValue("status", lsfc[i8].lDic[i9].status);
+
+                    xsubj.Add(lsfc[i8].lDic[i9].XML());
+                }
+                xfic.Add(xsubj);
+            }
+            SpecDoc.Save("test.xml");
+
+
+           
 
             //тестируем считывание словаря, почему-то спускается ниже чем надо сразу. решил проблему добавлением одного тега 
             List<SubjForCompare> lsfb = new List<SubjForCompare>();
             XmlDocument doc = new XmlDocument();
             doc.Load(filename);
             var root = doc.DocumentElement;
-            //doc.
-            //doc;
             foreach (XmlNode Sfbf in root)
             {
-               SubjForCompare sfb = new SubjForCompare(new Subject("", "", "", Sfbf.Attributes[0].Value, "", 0), null, null);  
+               SubjForCompare sfb1 = new SubjForCompare(new Subject("", "", "", Sfbf.Attributes[0].Value, "", 0), null, null);  
                 foreach (XmlNode di in Sfbf)
                 {
                     sfb.lDic.Add(new DictionaryItem(di.Attributes[0].Value, Convert.ToBoolean(di.Attributes[1].Value)));
