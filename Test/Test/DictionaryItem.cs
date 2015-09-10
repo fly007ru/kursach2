@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace Test
 {
-    class DictionaryItem
+   public class DictionaryItem
     {
        public string name;
        public bool status;

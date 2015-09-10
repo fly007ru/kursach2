@@ -4,5 +4,7 @@
     <DictionaryItem name="Дифф. геометрия" status="true" />
     <DictionaryItem name="Топ. геометрия" status="true" />
   </subj>
-  <subj name="Алгебра" />
+  <subj name="Алгебра"> 
+	<DictionaryItem name="Алгебра2" status="true" />
+  </subj>
 </subjects>

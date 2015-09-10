@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Test
 {
-    class SubjForCompare
+    public class SubjForCompare
     {
         public Subject subj;
         public List<string> lspecname;

@@ -10,7 +10,13 @@ namespace Test
     {
         string profile_, number_, cikl_, name_, forma_;
         int time_;
+        bool check_;
 
+        public bool check
+        {
+            get { return check_; }
+            set {check_=value;}
+        }
         public string profile
         {
             get { return profile_; }
@@ -57,6 +63,7 @@ namespace Test
             name = in_name;
             forma = in_forma;
             time = in_time;
+            check = false;
         }
     }
 }

@@ -23,12 +23,15 @@ using System.Data;
 
 
 namespace Test
-{ 
+{
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+        public List<Spec> Lspec= new List<Spec>();
+        public List<SubjForCompare> Lsfb= new List<SubjForCompare>();
+        public List<Subject> in_lsubj = new List<Subject>();
         public MainWindow()
         {
             InitializeComponent();
@@ -36,6 +39,48 @@ namespace Test
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
+            //тестируем считывание словаря, почему-то спускается ниже чем надо сразу. решил проблему добавлением одного тега 
+            /*List<SubjForCompare> lsfb = new List<SubjForCompare>();*/
+            XmlElement root;
+            XmlDocument docDic = new XmlDocument();
+            if (File.Exists("test.xml"))
+            {
+                docDic.Load("test.xml");
+                root = docDic.DocumentElement;
+                foreach (XmlNode Sfbf in root)
+                {
+                    SubjForCompare sfb1 = new SubjForCompare(new Subject("", "", "", Sfbf.Attributes[0].Value, "", 0), null, null);
+                    foreach (XmlNode di in Sfbf)
+                    {
+                        sfb1.lDic.Add(new DictionaryItem(di.Attributes[0].Value, Convert.ToBoolean(di.Attributes[1].Value)));
+                    }
+                    Lsfb.Add(sfb1);
+                }
+            }
+            if (Directory.Exists("ИМиКН"))
+            {
+                string[] paths= Directory.GetFiles("ИМиКН", "*.xml");
+                foreach (string path in paths)
+                {
+                    XmlDocument docSpec = new XmlDocument();
+                    docSpec.Load(path);
+                    root = docSpec.DocumentElement;
+                    Spec spec = new Spec(root.Attributes[0].Value, root.Attributes[1].Value, root.Attributes[2].Value, new List<Semestr>());
+                    spec.name = root.Attributes[0].Value;
+                    foreach (XmlNode xsemestr in root)
+                    {
+                        Semestr sem = new Semestr(Convert.ToInt16(xsemestr.Attributes[0].Value), new List<Subject>());
+                        foreach (XmlNode xsubject in xsemestr)
+                        {
+                            Subject subj = new Subject(xsubject.Attributes[0].Value, xsubject.Attributes[1].Value, xsubject.Attributes[2].Value, xsubject.Attributes[3].Value, xsubject.Attributes[4].Value,Convert.ToInt16(xsubject.Attributes[5].Value));
+                            sem.LS_.Add(subj);
+                        }
+                        spec.LSem_.Add(sem);
+                    }
+                    Lspec.Add(spec);
+                    SpecList.Items.Add(spec.name);
+                }
+            }
             return;
             string parentsite = "http://www.umk3plus.utmn.ru/";
             txb.Text = "work";
@@ -193,6 +238,114 @@ namespace Test
             MessageBox.Show("First");
         }
 
+        public void AddEdDI(string mainname, string in_subjname, bool state)
+        {
+            SubjForCompare tsfc;
+            int tcount = Lsfb.Count((x => x.subj.name.ToUpper() == mainname.ToUpper()));
+            if (tcount != 0)
+            {
+                tsfc = Lsfb.Where(x => x.subj.name.ToUpper() == mainname.ToUpper()).First();
+                tcount = tsfc.lDic.Count(x => x.name.ToUpper() == in_subjname.ToUpper());
+                DictionaryItem tdi;
+                if (tcount != 0)
+                {
+                    tdi = tsfc.lDic.Where(x => x.name.ToUpper() == in_subjname.ToUpper()).First();
+                    tdi.status = state;
+                }
+                else
+                {
+                    tdi = new DictionaryItem(in_subjname, state);
+                    tsfc.lDic.Add(tdi);
+                }
+            }
+            else
+            {
+                tsfc = new SubjForCompare(new Subject("", "", "", mainname, "", 0), null, null);
+                tsfc.lDic.Add(new DictionaryItem(in_subjname, state));
+                Lsfb.Add(tsfc);
+            }
+        }
+
+        public void Search()
+        {
+            //с маленьким словарем и входным файлом работает шустро
+            int delta=5;
+          foreach(Spec spec in Lspec)
+          {
+              foreach(Semestr sem in spec.LSem_)
+              {
+                  foreach(Subject subj in sem.LS_)
+                  {
+                      List<DictionaryItem> ldi_no = new List<DictionaryItem>();
+                      subj.check = false;
+                      var tmps=in_lsubj.Where(x=>x.name.ToUpper()==subj.name.ToUpper()).ToList();
+                      if (tmps.Count == 0) 
+                      {
+                          //пытаемся дополнить словарь
+                          var ndi= in_lsubj.Where(x => x.name.ToUpper().Contains(subj.name.ToUpper()) || subj.name.ToUpper().Contains(x.name.ToUpper()));
+                          foreach(Subject s in ndi)
+                          {
+                              int tcounti = Lsfb.Count(x => x.subj.name.ToUpper() == subj.name.ToUpper());
+                              if (tcounti != 0)
+                              {
+                                  tcounti = Lsfb.Where(x => x.subj.name.ToUpper() == subj.name.ToUpper()).First().lDic.Count(y => y.name.ToUpper() == s.name.ToUpper());
+                                  if (tcounti == 0)
+                                  {
+                                      //MessageBox.Show("Предлагаем добавить новый дикшинари айтем потомок");
+                                      bool state=true; // спрашиваем в всплыывающем окне
+                                      AddEdDI(subj.name, s.name, state);
+                                  }
+                              }
+                              else
+                              {
+                                  //MessageBox.Show("Предлагаем добавить новый дикшинари айтем корень"); 
+                                  bool state = true; // спрашиваем в всплыывающем окне
+                                  AddEdDI(subj.name, s.name, state);
+                              }
+                          }
+                      }
+                      int tcount= Lsfb.Count(x=>x.subj.name.ToUpper()==subj.name.ToUpper());
+                      if (tcount!=0)
+                      {
+                        foreach(Subject sfb in in_lsubj){
+                            tcount= Lsfb.Where(x=>x.subj.name.ToUpper()==subj.name.ToUpper()).First().lDic.Count(y=>y.name.ToUpper()==sfb.name.ToUpper());
+                            if (tcount!=0)
+                            {
+                                DictionaryItem tdi = Lsfb.Where(x=>x.subj.name==subj.name).First().lDic.Where(y=>y.name.ToUpper()==sfb.name.ToUpper()).First();
+                                {
+                                    if (tdi.status)
+                                    tmps.Add(sfb); else ldi_no.Add(tdi);
+                                    //надо запомнить, что статус нет и не предлагать потом добавление в словарь
+                                }
+                            }
+                        }
+                      }
+                      foreach (Subject stmp in tmps)
+                      {
+                          if (stmp.forma == subj.forma && Math.Abs(stmp.time - subj.time) <= delta)
+                          {
+                              subj.check = true; break; //совпадает - пометить что такой предмет есть у соискателя один предмет - один предмет?
+                          }
+                      }
+                      if (!subj.check)
+                      {
+                          
+                          //проверить по подстроке в строке, заглянуть в дикшинариайтем, если нет отрицания,
+                          //предложить добавить в случае успеха поиска.
+                      }
+                  }
+                  if (sem.LS_.Count(x=>x.check)==0)
+                  {
+                      sem.stat = 0;
+                  } 
+                  else
+                  {
+                      if (sem.LS_.Count(x => x.check) == sem.LS_.Count) sem.stat = 2; else sem.stat = 1;
+                  }
+              }
+          }
+        }
+
         private void MenuItem_Click(object sender, RoutedEventArgs e)
         {
             OpenFileDialog dlg = new OpenFileDialog();
@@ -203,6 +356,9 @@ namespace Test
                 filename = dlg.FileName;
             }
 
+            /*addCompare */
+            
+            
             /*XmlDocument doc = new XmlDocument();
             doc.Load(filename);
 
@@ -223,24 +379,24 @@ namespace Test
             
             //тестирум считывание из экселя - Лимон
             //List<Subject> in_ls = new List<Subject>();
-            //ExcelDoc exceldoc = new ExcelDoc(filename);
+            ExcelDoc exceldoc = new ExcelDoc(filename);
             //нумерация в документе не с нуля
-            /*for (int i = 1; i <= exceldoc.usedRowsNum; i++)
+            for (int i = 1; i <= exceldoc.usedRowsNum; i++)
             {
                 try
                 {
                     Subject s = new Subject("", "", "", exceldoc.GetCellValue(i, 1), exceldoc.GetCellValue(i, 3), Convert.ToInt16(exceldoc.GetCellValue(i, 2)));
-                    in_ls.Add(s);
+                    in_lsubj.Add(s);
                 }
                 catch { }
             }
-            exceldoc.Close();*/
+            exceldoc.Close();
 
             //тестируем сохранение Словаря - Лимон - вроде норм
 
 
 
-            List<SubjForCompare> lsfc = new List<SubjForCompare>();
+            /*List<SubjForCompare> lsfc = new List<SubjForCompare>();
             SubjForCompare sfb = new SubjForCompare(new Subject("", "", "", "Геометрия", "", 0), null, null);
             sfb.lDic.Add(new DictionaryItem("Дифф. геометрия", true));
             sfb.lDic.Add(new DictionaryItem("Топ. геометрия", true));
@@ -264,27 +420,73 @@ namespace Test
                 }
                 xfic.Add(xsubj);
             }
-            SpecDoc.Save("test.xml");
-
-
-           
-
-            //тестируем считывание словаря, почему-то спускается ниже чем надо сразу. решил проблему добавлением одного тега 
-            List<SubjForCompare> lsfb = new List<SubjForCompare>();
-            XmlDocument doc = new XmlDocument();
-            doc.Load(filename);
-            var root = doc.DocumentElement;
-            foreach (XmlNode Sfbf in root)
-            {
-               SubjForCompare sfb1 = new SubjForCompare(new Subject("", "", "", Sfbf.Attributes[0].Value, "", 0), null, null);  
-                foreach (XmlNode di in Sfbf)
-                {
-                    sfb.lDic.Add(new DictionaryItem(di.Attributes[0].Value, Convert.ToBoolean(di.Attributes[1].Value)));
-                    //(subject.Attributes[3].Value, subject.Attributes[4].Value, subject.Attributes[5].Value);
-                }
-                int i = 0;
-            }
+            SpecDoc.Save("test.xml");*/
             
+            /*string s1 = "Геометрия1", s2 = "Дифф. геометрия";
+            bool state = true;
+            //addeditSubjForCompare
+            SubjForCompare tsfc;
+            int tcount = Lsfb.Count((x => x.subj.name.ToUpper() == s1.ToUpper()));
+            if (tcount!=0)
+            {
+                tsfc = Lsfb.Where(x => x.subj.name.ToUpper() == s1.ToUpper()).First();
+                tcount = tsfc.lDic.Count(x => x.name.ToUpper() == s2.ToUpper());
+                DictionaryItem tdi;
+                if (tcount != 0) 
+                { 
+                    tdi = tsfc.lDic.Where(x => x.name.ToUpper() == s2.ToUpper()).First();
+                    tdi.status = state; 
+                } 
+                else 
+                { 
+                    tdi = new DictionaryItem(s2, state);
+                    tsfc.lDic.Add(tdi);
+                }
+            }
+            else
+            {
+                tsfc = new SubjForCompare(new Subject("", "", "", s1, "", 0), null, null);
+                tsfc.lDic.Add(new DictionaryItem(s2, state));
+                Lsfb.Add(tsfc);
+            }
+            //int i = 0;
+
+            //delete subjforcompare
+            //s1 = "Тест"; s2 = "Тест2";
+
+            //Lsfb.Where(x => x.subj.name.ToUpper() == s1.ToUpper()).First().lDic.RemoveAll(y => y.name.ToUpper() == s2.ToUpper());
+            //if (Lsfb.Where(x => x.subj.name.ToUpper() == s1.ToUpper()).First().lDic.Count == 0) Lsfb.RemoveAll(x=>x.subj.name.ToUpper()==s1.ToUpper());*/
+            Search();
+            List<Subject> t = new List<Subject>();
+            string plz = "";
+            foreach (Spec s in Lspec)
+            {
+                foreach(Semestr sem in s.LSem_)
+                {
+                   if (sem.stat > 0) { plz += s.name + " "; }
+                   t.AddRange(sem.LS_.Where(x => x.check));
+                }
+            }
+            int k = 0;
+        }
+        
+        private void SpecList_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            DataTable dt = new DataTable();
+            dt.Columns.Add("Профиль");
+            dt.Columns.Add("Имя");
+            dt.Columns.Add("Контроль");
+            dt.Columns.Add("Часы");
+            dt.Columns.Add("Сдано");
+            foreach (Semestr semestr in Lspec[SpecList.SelectedIndex].LSem_)
+            {
+                dt.Rows.Add("Семестр " + semestr.number);
+                foreach (Subject subject in semestr.LS_)
+                {
+                    dt.Rows.Add(subject.profile, subject.name, subject.forma, subject.time, subject.check);
+                }
+            }
+            curplan.ItemsSource = dt.DefaultView;    
         }
     }
 }

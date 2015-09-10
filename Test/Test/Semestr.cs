@@ -10,13 +10,20 @@ namespace Test
     {
         int number_;
         public List<Subject> LS_;
+        int stat_; //0 нет совпадений, 1 есть, 2 полное
+
+        public int stat
+        {
+            get { return stat_; }
+            set { stat_ = value; }
+        }
 
         public int number
         {
             get { return number_; }
             set
             {
-                if (number < 0) number_ = 0; else number_ = number;
+                if (value < 0) number_ = 0; else number_ = value;
 
             }
         }
@@ -26,6 +33,7 @@ namespace Test
             LS_ = new List<Subject>();
             LS_.AddRange(in_LS);
             number = in_number;
+            stat_ = 0;
         }
     }
 }
